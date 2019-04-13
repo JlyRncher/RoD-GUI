@@ -1,0 +1,207 @@
+Realms of Despair User Interface (RoD_UI)
+Author: Sepharoth
+Version: 1.0
+=========================================
+
+Table of Contents
+=================
+
+1. Installation
+2. Usage
+3. Appendix
+	A. Changing Default Background
+	B. Changing Default Folder Location
+	C. Custom Portraits
+	D. Directions
+	E. Skins / Themes
+4. Acknowledgements
+
+1. Installation
+===============
+
+IMPORTANT: The plugin will not run on MUSHclient versions lower than 4.43. It is
+recommended to use AT LEAST version 4.73 to ensure that all components function
+correctly. For the latest MUSHclient version, visit <http://mushclient.com>.
+
+1. Unzip 'rod_ui-x.x.zip' to your plugins folder. On a default Windows installation, this is something
+similar to 'C:\Program Files (x86)\MUSHclient\worlds\plugins\' folder.
+	i. If you wish to store the UI in a different location, you will need to edit
+	the plugin script. See Appendix B.
+	
+2a. Start MUSHclient and open a world you wish to install the UI to.
+	i. Disconnect from the world using 'quit' or Ctrl+Shift+K.
+	ii. Open the 'Plugin' window pane (Ctrl+Shift+P).
+	iii. Click the 'Add...' button.
+	iv. Navigate to the 'MUSHclient/worlds/plugins/rod_ui' folder and select the
+	'plugin.xml' file. The plugin is now installed.
+	
+2b. If you wish to use the UI on all of your worlds, you may setup the plugin in the
+	"Global Preferences" plugin pane.
+
+3. Reconnect (Ctrl+Shift+K) to the world and the UI should initialize.
+
+2. Usage
+========
+
+The UI adds a number of components to the MUSHclient output window. Therefore a
+higher screen resolution is necessary to display all components, as well as leave
+enough space to display the MUD output. The UI will utilize a minimum of 945x520 pixels
+in screen width and height, therefore a resolution of at least 1024x768 is recommended.
+If you are running the UI on a laptop, it is recommended to use the "Full Screen Mode"
+option in MUSHclient (Ctrl+Alt+F). If during the course of usage the interface doesn't
+resize properly, you may type 'ui.resize' to force one, although this should not be
+necessary and is a result of poor programming (sorry!) if it occurs.
+
+The UI comes by default with the following components:
+
+	a. Player health/mana/blood/movement/experience gauges
+		i. Nice-looking graphical bars with accompanying values.
+	b. Opponent health gauge
+		i. Displays opponent graphical health bar along with opponent name and health
+			percent.
+	c. Minimap
+		i. Displays visible exits from the player's current room.
+	d. Score pane
+		i. Displays character information.
+	e. Affect pane
+		i. Displays spells currently affecting your character.
+			- Normal spells in white text
+			- Adverse affects in pink text
+		ii. Alternate affect view that always keeps important spells at the top
+			of the affect list. (The 'eye' icon)
+	f. Area pane
+		i. Searchable area list. Click on the name of the area tó go their.
+			- Only works if you are navigating from the base room, e.g. Darkhaven Square
+			- When you start walking to an area, you may cancel your journey by clicking
+				on the 'X' button that appears at the bottom left of the world window.
+		ii. Read the DISCLAIMER in Appendix D!
+	g. Equipment pane
+		i. Displays currently worn equipment by the character as well as how many times
+			each piece of equipment has been damaged. MaxAC for each item can be configured
+			by clicking on the desired item.
+		ii. If you don't see any equipment, click on the 'gears' icon at the top-right of the
+			panel.
+				- Equipment scanning only needs to be done the first time you connect after
+					opening the world.
+				- Equipment scanning can be done automatically by configuring the 'eqscan'
+					option.
+		iii. If you click on the 'hammer' icon at a repair shop, a repair bill will be displayed.
+	
+Other components may be supplied in a customized version of this plugin or as
+plugins themselves.
+
+To get a list of alias and other commands available through the plugin, type
+'ui.help'.
+
+3. Appendix
+===========
+
+A. Changing Default Background
+------------------------------
+
+If you would like to use a custom background image (displayed behind the MUD text output),
+you can swap in your own by replacing the 'backgrounds/bg.png' file with an image of your
+choosing. If at some point in the future you want to revert to a plain black background,
+create a tiny PNG image filled with black and save it as 'backgrounds/bg.png'.
+
+B. Changing Default Folder Location
+-----------------------------------
+
+To change the default location for the plugin, you need to edit the 'plugin.xml'
+plugin file. Open the file in a text editor and look for the following line near the top
+of the CDATA section:
+
+local asset_path = GetInfo(66) .. "worlds//plugins//rod_ui//"
+
+Change the asset_path variable to the absolute location you want to extract the
+plugin files to, e.g:
+
+local asset_path = "C://rod_ui//"
+
+After making the changes, you will need to reinstall the plugin in MUSHclient.
+
+C. Custom Portraits
+-------------------
+
+By default there is only one portrait included with the plugin. There is
+support for a portrait based on character name or class type. To include your own
+portraits, save the desired portrait files to the appropriate folder in the 
+"portrait" directory in the plugin root directory.
+
+If you wish to use a custom portrait for a specific character, save the portrait
+as "charactername.png" (all lowercase letters) in the "characters" directory.
+
+If you wish to use a generic portrait for each class type, save the portrait for
+that class as "classname.png" (all lowercase letters) in the "classes" directory
+
+Portraits should be 120x164 in dimension and be in PNG format. If
+portrait files are bigger or smaller in resolution they will be stretched or
+shrunk to the appropriate size.
+
+D. Directions
+-------------
+
+DISCLAIMER: The directions provided with the plugin are player-contribued. They are
+by no means official, nor have they all been tested. Directions may NOT be accurate!
+They are provided without any liability or guarantee. This means you use them completely
+at your own risk. Any losses that occur as a result of using these directions is the 
+sole responsibility of the player and immortals are under no obligation to provide
+any assistance with corpse retrievals/item reimbursements or the like.
+
+The plugin comes with a default set of directions aliases located in the "etc"
+folder. The file is called "directions.xml" and contains a list of directions mapped to 
+aliases that are used in the area pane.
+
+If you wish to add your own directions, you can add them to the file however
+you must observe the following formatting rules when naming the "match" and 
+"name" fields. Any characters that are not Aa-Zz and 0-9 or the underscore (_)
+need to be replaced using the translation table below:
+
+'         = 0 (apostrophe/single quotation mark)
+/         = 1 (forward slash)
+-         = 2 (hyphen)
+(         = 3 (open paranthesis)
+)         = 4 (close paranthesis)
+"         = 5 (quotation mark)
+&         = 6 (ampersand)
+,         = 7 (comma)
+<space>   = _ (underscore)
+
+If you include invalid characters in the name or match fields, the alias will not
+be added. This is due to MUSHclient's internal naming rules.
+
+If you mess something up, you can copy and rename the "directions.bak" file 
+to "directions.xml" and you will be back where you started from.
+
+See also the 'encode' and 'decode' functions in the 'plugin.xml' file if you wish
+to hack something together to automate this conversion.
+
+E. Skins / Themes
+-----------------
+
+Although no facilities are setup explicitly, it should be fairly easy to
+create new "skins" for the UI by simply replacing the graphics assets located in
+the "background", "border" and "icon" folders.
+
+4. Acknowledgements
+===================
+
+This plugin is based on previous work done by KaVir. You can find his original
+plugin at <http://www.realmsofdespair.com/client/RoD_GUI.xml>.
+
+A special thank you to Alex and Belkira for their suggestions, 'unintended feature'
+reports and testing!
+
+All images used in the program are either original creations, used under license,
+or used with permission.
+
+Default avatar icon by J. W. Bjerk (eleazzaar) -- www.jwbjerk.com/art (CC-BY 3.0)
+	find this and other open art at: http://opengameart.org
+"Dirt" tile image created by Jeff Ottinger (CC-BY 3.0).
+Original black and white button images created by Lorc (CC-BY 3.0).
+Scroll image created by dead-brushes (no license).
+	other work by this artist is available at <http://dead-brushes.deviantart.com>
+"Old paper" image created by KnightRanger (no license).
+	other work by this artist is available at <http://knightranger.deviantart.com>
+Panel button background image used from the Glest project <http://www.glest.org> with permission
+	and edited by johndh (CC-BY 3.0).

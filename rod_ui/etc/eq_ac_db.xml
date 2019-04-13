@@ -1,0 +1,6091 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<items>
+  <item>
+    <name>strip of green troll fur</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>leather backpack</name>
+    <ac/>
+  </item>
+  <item>
+    <name>A Robe of Human Flesh</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>A forest green quilt</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>A shroud of darkness</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Aura of the Shadow</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Balrog's Cape</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Barrik's cloak of darkness</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>Braughton of the Clan Dubh Glas</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Cloak of Demons</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>Cloak of Light</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Cloak of Royalty</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>Cloak of the Eternal Wanderer</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Duke's robes</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>Elvish Cloak</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Entreri's bat cloak</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>Eriumir's Grey Cloak of Shadows</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>Holy Cloak of Power</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>Illusions of the Coryphee</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Johral's wrinkled cloak</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>Kahl's Green Dragonhide Pouch</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Restful Souls</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Robe of Night</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Robe of the Magi</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Sanctimony</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>aura of Eternal Grandeur</name>
+    <ac>30</ac>
+  </item>
+  <item>
+    <name>azure robe</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>bear fur cloak</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>black silk cloak</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>blood-stained robes of the vitiated</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>bright yellow raincoat</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>camouflaging cape</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>cloak of Death</name>
+    <ac>30</ac>
+  </item>
+  <item>
+    <name>cloak of elvenkind</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>cloak of shifting colours</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>cloth robe of the Chosen</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>dark gray robes of a nephandi</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>dark green robes</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>darkened robe of atonement</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>dead cloaker</name>
+    <ac>16</ac>
+  </item>
+  <item>
+    <name>deep green robe</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>elegant robe of the winter</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>essence of kundalini</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>fallohide's cloak</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>fur lined cloak of the plains wanderer</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>golden hued flowing mage robes</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>gray robes of the monk</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>green leather vest</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>hand stitched quilt</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>heavy woolen blanket</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>heavy woolen cloak</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>hide of a python</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>highland Braughton</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>holocaust cloak</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>infernal pentagram</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>intricate purple robe</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>leather cloak</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>long grey cloak</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>long hooded cloak</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>long, black leather coat</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>luxurious fur cloak</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>major globe of invulnerability</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>mantle with a star shaped emblem</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>mind flayer's robe</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>noble cape</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>off-white gown</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>oma'aneh</name>
+    <ac>1</ac>
+  </item>
+  <item>
+    <name>patchwork cloak</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>patchwork fur robe</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>priest's robes</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>robe of anointment</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>robe of the magi</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>robe of witches</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>robes of the novice priest</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>rug of Wraatha</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>satanic robe</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>scullery apron</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>shimmering gold robe</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>silk Oma'aneh</name>
+    <ac>1</ac>
+  </item>
+  <item>
+    <name>slime of the gargoyle</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>small leather pack</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sparkling gold bed sheet</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>squirrel fur cloak</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>sublime resistance</name>
+    <ac>30</ac>
+  </item>
+  <item>
+    <name>tattered robes of intolerance</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>waterfall cloak</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>white sharkskin satchel</name>
+    <ac/>
+  </item>
+  <item>
+    <name>white trollskin cloak</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>wolf pelt vest</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>woolen shawl</name>
+    <ac>1</ac>
+  </item>
+  <item>
+    <name>worn aboot body cloak</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>wraith shroud</name>
+    <ac>23</ac>
+  </item>
+  <item>
+    <name>writhing mass of maggots</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>wyvern skin cloak</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>yellow alchemy smock</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>yellow and brown tanned hide cloak</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>Blackened Spurs of the Nazgul Lord</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Cawyn's anklet of storms</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>ankle bracer of mobility</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>blue, glassy chain</name>
+    <ac>25</ac>
+  </item>
+  <item>
+    <name>chains of fear</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>demonskin ankle bracer</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>frog's tongue</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>iridescent circlet of scales</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>prickly circlet of vine</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>silver anklet</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>silver braid</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>turqoise anklet</name>
+    <ac>18</ac>
+  </item>
+  <item>
+    <name>weighty chains of subjugation</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Covenant charm of the Eldest</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Fate key</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>battered scale</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>crested key of blue metal</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>griffon feather</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>skull of a kirre</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>mithril bracer</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>A pair of carved bronze bracers</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>Arabella's golden bracelet</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>Brand of Eternal Subjugation</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Demonhide Arm Guards</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Golden Armguards of Valiance</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Goliath's spiraled armbands</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Ice Arm Guards</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>Immortal Light</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>Mark of the Beast</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Pauldrons of Mortality</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Sun, Moon and Stars</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Tattoo of the Sleepless</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Titanic Arm plates of Hercules</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>armguards of the deep lode</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>armlet of Sorrow</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>bands of power</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>black ring mail spaulders of the Falcon</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>blood of the innocent</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>copper bands</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>iron bracers</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>leather armband of the Magus</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>metallic arm guards</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>moleskin sleeve patch</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>padded woolen sleeves</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>pair of Transylvanian Armbands</name>
+    <ac>25</ac>
+  </item>
+  <item>
+    <name>pair of black Doom insignia armguards</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>a pair of dragonscale arm-guards</name>
+    <ac>27</ac>
+  </item>
+  <item>
+    <name>pair of splint metal sleeves</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>quilted leather sleeves</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>realistic tattoo of an ice wyrm</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>red Festivus sleeves of doom</name>
+    <ac>29</ac>
+  </item>
+  <item>
+    <name>set of batwings</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>set of dragon scale sleeves</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>set of reinforced ringmail sleeves</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>shadowy pair of dragonscale arm guards</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>silver dragonhide armguards</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>sleeves of Kahl</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>sleeves of Power</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>splinted sleeves</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>steel sleeves</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>strand of polished jade</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>strands of Miden'spiderweb</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>tattoo of interlaced leaves</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>tight, black bands</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>An apostate's darkened shroud</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Brigand's Cloak of Concealment</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Cerement of the Damned</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Charred Hide of the Daemon Lord</name>
+    <ac>30</ac>
+  </item>
+  <item>
+    <name>Gorton's sea chest</name>
+    <ac/>
+  </item>
+  <item>
+    <name>black cloak with red lining</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>dark grey, hooded cloak</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>filthy rucksack</name>
+    <ac/>
+  </item>
+  <item>
+    <name>gopher tail</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>green leather quiver</name>
+    <ac/>
+  </item>
+  <item>
+    <name>hand-crafted backpack from Eldestra</name>
+    <ac/>
+  </item>
+  <item>
+    <name>intricately designed silver-grey cloak</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>large strip of bugbear fur</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>large, grass woven backpack</name>
+    <ac/>
+  </item>
+  <item>
+    <name>leathery wings of the forsaken</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>pair of giant dragon wings</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>pteraman wings</name>
+    <ac>16</ac>
+  </item>
+  <item>
+    <name>rags of the cursed</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>ravaged looking black silk cape</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>rotting animal carcass</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>shimmering cloak of the elements</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>shimmering, yellow robe</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>small leather sack</name>
+    <ac/>
+  </item>
+  <item>
+    <name>stripe of the badger</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>thick piece of lizard hide</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>well worn multi-colored cloak</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>wild cascade of darkness</name>
+    <ac>45</ac>
+  </item>
+  <item>
+    <name>woolly monkey skin</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>old fishing boat</name>
+    <ac/>
+  </item>
+  <item>
+    <name>dirty, dark green robe marked with the Khiurn'hai insignia</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>filthy, dark blue robe marked with the Khiurn'hai insignia</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>A fur lined coat</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>A hooded, blue robe with the Khiurn'hai crest</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>A long diaphanous white gown</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>A long, brown robe with the Khiurn'hai crest</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>A sparkling rainbow vest of scales' is infused with your magic...</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>A suit of splint mail</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Advent Breastplate</name>
+    <ac>30</ac>
+  </item>
+  <item>
+    <name>Aegis</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Ancient Breastplate of the Forest Wanderer</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Breastplate of the Ravager</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Carapace of the Weaver</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>Corselette of the Furies</name>
+    <ac>25</ac>
+  </item>
+  <item>
+    <name>Crest of the Everhate</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>Crimson Breastplate</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Damned Plate of Mordred</name>
+    <ac>25</ac>
+  </item>
+  <item>
+    <name>Delasu armor plate</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Demonscale Plate</name>
+    <ac>70</ac>
+  </item>
+  <item>
+    <name>Demonspawn Stormcloud</name>
+    <ac>35</ac>
+  </item>
+  <item>
+    <name>Dragonhide Breastplate</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>Dragonhide Breastplate' is infused with your magic...</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Golden Plate</name>
+    <ac>16</ac>
+  </item>
+  <item>
+    <name>Gris'Mere</name>
+    <ac>75</ac>
+  </item>
+  <item>
+    <name>Lily Covered Tabard of the Knight Protector</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Livery of the Sea King</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Nohrish leather plate armor</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>Spiral of Daeva</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>Spoils of Thievery</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Suit of Black Dragonhide Chainmail</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Tabard of the Roses</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>Transylvanian Military Jacket</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Unholy Robes of the Invoker</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>War's blood-covered breastplate</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>adamantium plate armor</name>
+    <ac>100</ac>
+  </item>
+  <item>
+    <name>ankheg shell</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>battle mail of the Dragonlord</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>black death robes</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>black dragonscale hauberk</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>black lace brassiere</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>black leather armor</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>black leather mutant armor</name>
+    <ac>30</ac>
+  </item>
+  <item>
+    <name>black plate of Hades</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>black pullover</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>black shirt</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>black steel plate</name>
+    <ac>60</ac>
+  </item>
+  <item>
+    <name>blazing white surcoat</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>blood soaked bandages</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>blood spattered apron</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>bodymesh of knotted rope</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>cloak of spirits</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>coat of durable wyvern hide</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>cockroach's exoskeleton</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>dark buckskin tunic</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>dark red hooded robe</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>dark scales of the demonic enforcer</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>deadly ridged breastplate</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>deep red dress</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>diaphanous cloak</name>
+    <ac>35</ac>
+  </item>
+  <item>
+    <name>dishdasha</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>double chainmail hauberk</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>dragonscale breastplate</name>
+    <ac>45</ac>
+  </item>
+  <item>
+    <name>dragonscale robes</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>dress of black silk</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>dwarven tunic</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>embroidered vest</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>emerald green surcoat embroidered with silver thread</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>fine meshed chainmail shirt</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>fine silk doublet</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>flashy turquoise shirt with ruffles and white lace trim</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>flowered dress</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>flowing blue robes</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>flowing purple robe</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>forest green tunic</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>frilly blue satin suit</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>frilly pink robe</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>fur-lined poncho</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>ghostly maid outfit</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>gilded gold breast plate</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>golden dragonscale torso</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>grubby gray slave's tunic</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>hard leather vest</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>icy plate</name>
+    <ac>18</ac>
+  </item>
+  <item>
+    <name>leather armor</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>leather jerkin over a grey woollen shirt</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>light green dress</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>lionskin</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>livery of the royal house</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>long black hooded robe</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>low-cut furs</name>
+    <ac>19</ac>
+  </item>
+  <item>
+    <name>metallic plate</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>midnight black hauberk</name>
+    <ac>25</ac>
+  </item>
+  <item>
+    <name>nightshirt</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>ninja gi</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>old, mended tunic</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>olive coloured shirt</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>orange sweater</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>ornamental breast plate</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>padded woolen gambeson</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>pelt of an ice fox</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>plaid smoking jacket</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>plate of Magic</name>
+    <ac>30</ac>
+  </item>
+  <item>
+    <name>rainbow robe</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>red plate mail</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>red swimsuit</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>revealing white robe</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>ruffled livery</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>runecape</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>scarlet shirt</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>scorched ringmail suit</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>sepia robe</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>sexy lace nightie</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>shapeless cassock</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>silk bathrobe</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>silken indigo blouse</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>silken, grey robes of magnificence</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>some tattered rags</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>stoney breastplate</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>storm giant beard</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>straitjacket</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>strip of green scales</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>studded leather jerkin over a white silk shirt</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>studded leather keshka hide</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>suit for diving</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>suit of Ravenell crested ringmail</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>suit of black minotaur chainmail</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>suit of black, spiked scalemail</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>suit of chainmail</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>suit of ethereal plate</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>suit of granite platemail</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>suit of obsidian plate armor</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>suit of shining knight's armor</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>suit of steel plate armor</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>suspendies and a bra</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>t-shirt with the words "NOT THE FACE" printed on it</name>
+    <ac>30</ac>
+  </item>
+  <item>
+    <name>tattered grey cloak</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>thick leather jerkin</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>thick winter cloak</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>thobe</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>tight bustier</name>
+    <ac/>
+  </item>
+  <item>
+    <name>tight fitting practice gi</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>tight-fitting maid costume</name>
+    <ac>16</ac>
+  </item>
+  <item>
+    <name>undertunic</name>
+    <ac>1</ac>
+  </item>
+  <item>
+    <name>webbed armor</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>well worn habit</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>white Gryphon Keep tabard</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>white cotton shirt</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>white cuirass of ancient dragonscale</name>
+    <ac>25</ac>
+  </item>
+  <item>
+    <name>white scale mail</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>white shirt</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>white silk overshirt</name>
+    <ac>30</ac>
+  </item>
+  <item>
+    <name>white smock of amelioration</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>white trollskin vest</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>winter wolf pelt</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>woodcarver's apron</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>Royal Decree</name>
+    <ac/>
+  </item>
+  <item>
+    <name>opaque parchment</name>
+    <ac/>
+  </item>
+  <item>
+    <name>prison ledger</name>
+    <ac/>
+  </item>
+  <item>
+    <name>recipe booklet</name>
+    <ac/>
+  </item>
+  <item>
+    <name>scroll worth one rename</name>
+    <ac/>
+  </item>
+  <item>
+    <name>A dog-earred earring</name>
+    <ac>19</ac>
+  </item>
+  <item>
+    <name>Brimstone pentagram</name>
+    <ac>18</ac>
+  </item>
+  <item>
+    <name>Canorous Susurrus</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Confessions of the Righteous</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Demonic Whispers</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Echoes of Damnation</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>Heaven's Song</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Hymns of Divine Genocide</name>
+    <ac>16</ac>
+  </item>
+  <item>
+    <name>Ice Earrings</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Litany of Faith</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Oleg's exquisite golden earrings</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>Relic of Poromenos</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Relic of the Infinite</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Whispers of the Demon</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>bat skull</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>blackened shard named "Infinity"</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>blessing of demons</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>bloody scale</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>circlet of Solomon</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>crystal pixie wing</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>crystalline teardrop</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>curly tail of a seahorse</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>earring of GlassWalker bone</name>
+    <ac>23</ac>
+  </item>
+  <item>
+    <name>earring of the Magus</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>earrings of Solace</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>fire crystal</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>gold earring</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>gryphon etched ear cuff</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>leaf of the Wise-elf Tree</name>
+    <ac>1</ac>
+  </item>
+  <item>
+    <name>loop of gold wire</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>maddening voices</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>magical chocolate egg</name>
+    <ac/>
+  </item>
+  <item>
+    <name>multifaceted diamond earring</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>pair of diamond earrings</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>pair of pearl earrings</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>rampaging gryphon</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>sailor's earring</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>scale of the tyrant</name>
+    <ac>22</ac>
+  </item>
+  <item>
+    <name>shard of crystal</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>shiny trinket</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>silver earring</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>sliver of glass</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>string of severed Human ears</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>studded, silver earring</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>token of the Gods' affection</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>white deerbone crescent</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>winter rose</name>
+    <ac/>
+  </item>
+  <item>
+    <name>A pair of Goroggles</name>
+    <ac>34</ac>
+  </item>
+  <item>
+    <name>Blindfold of Clarity</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>Chaotic Dreamscapes</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Crystal Lens</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>Eye of the Beholder</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Eye of the Raven</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Mask of Macabre Visages</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Mystic Dragonsight</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>Short Sighted Perceptions</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Visage of Bloodlust</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>black Doom insignia visor</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>black knight's visor</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>black leather eyepatch</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>black visor of demonic shadow</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>blood hunger</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>bloody eyepatch</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>coercion</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>crystaline eye of Na'gor</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>crystalline eye of Na'gor</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>demonic eyes</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>ephemeral mist</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>eye of the monkey</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>lich eyes</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>monocle of foresight</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>oracle of prescience</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>pair of ghoroggles</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>pair of reading glasses</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>pair of rose tinted eyeglasses</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>pair of wire rimmed spectacles</name>
+    <ac>1</ac>
+  </item>
+  <item>
+    <name>ripped off face of a flaming skull</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>savrathi blindfold</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>shades</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>shades of light</name>
+    <ac>25</ac>
+  </item>
+  <item>
+    <name>sparklestar</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>spiked leather eyepatch</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>subversion</name>
+    <ac>16</ac>
+  </item>
+  <item>
+    <name>thick-glassed monocle</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>thin black veil</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>tiny, darkly stained, crystal disk</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>veil of Hecate</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>visions descending</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>visor of dark</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>visor of light</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>visor of truth</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>white sequined mask</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>2009 New Year's baby face paint</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Beer Golem Eyes</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Congenitive Visage Disorder</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>Masque of Comedy</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Masque of Tragedy</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>ancient mask</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>black hooded mask</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>black mask</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>blood stained skull of repentance</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>cat face paint</name>
+    <ac/>
+  </item>
+  <item>
+    <name>dragon face paint</name>
+    <ac/>
+  </item>
+  <item>
+    <name>eternal youth</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>facade of the Hannya</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>fur from a raccoon</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>glass thermoscope</name>
+    <ac/>
+  </item>
+  <item>
+    <name>green leather mask</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>grizzly looking troll hide mask</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>mask of Death</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>mask of shadows</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>mask of unholy perversions</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>mouse face paint</name>
+    <ac/>
+  </item>
+  <item>
+    <name>muzzle for Joe</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>orc face paint</name>
+    <ac/>
+  </item>
+  <item>
+    <name>panda face paint</name>
+    <ac/>
+  </item>
+  <item>
+    <name>rogue's mask of madness</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>skull-bone mask</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>stretched flesh of Aleksi</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>stretched flesh of An Empty Voice</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>stretched flesh of Danbala Wedo</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>stretched flesh of Deaz</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>stretched flesh of Kujrajgi, the Oldest One</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>stretched flesh of Leala</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>stretched flesh of Sartz</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>stretched flesh of a bashful garden gnome</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>stretched flesh of a dribbly faced baby</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>stretched flesh of a poodle of doom</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>stretched flesh of an annoying little whiner</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>stretched flesh of the Fire Elemental</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>stretched flesh of the ancient amulet of dispersal</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>torn flesh of the dragon</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>translucent veil</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>Dark Stride</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Dark, cloven hooves</name>
+    <ac>26</ac>
+  </item>
+  <item>
+    <name>Echtra of the Druidae</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Malignant Boots of the Hellion</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Ondanguar's pointed gnomish shoes</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>Silver boots of Camelot</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Steps of the Divine</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>birch clogs</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>black leather boots of the Falcon</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>black pair of slippers caked with mud</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>black patent leather shoes</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>black, razor-toed boots</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>blackened demon hooves</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>boots of Delphium</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>boots of ancient spider venom</name>
+    <ac>18</ac>
+  </item>
+  <item>
+    <name>boots of striding</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>boots of tanga hide</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>chains of imprisonment</name>
+    <ac>30</ac>
+  </item>
+  <item>
+    <name>clawed boots of the winterbeast</name>
+    <ac>16</ac>
+  </item>
+  <item>
+    <name>cold shoes of the tundra</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>darkened boots of the grimoire</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>deerhide boots</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>delicate pink slippers</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>demonscale Boots</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>facestompers</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>fetters of nightshade</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>footprints of the soulless wanderer</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>greyish black socks</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>hard leather boots</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>knee-high boots of keshka hide</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>loki's shoes</name>
+    <ac/>
+  </item>
+  <item>
+    <name>moccasins</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>pair of black, high heel boots</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>pair of clogs made of Black Forest bark</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>pair of comfortable leather boots</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>pair of dancing slippers</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>pair of dirty socks</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>pair of dragonscale boots</name>
+    <ac>23</ac>
+  </item>
+  <item>
+    <name>pair of field boots</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>pair of fur lined boots</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>pair of gnome boots</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>pair of knee high boots</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>pair of knee-high moccasins</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>pair of kneehigh buckskin boots</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>pair of long black boots</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>pair of sandals</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>pair of snug winter boots</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>pair of stilts</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>pair of stylish black boots</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>pair of tabi boots</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>pair of traveling boots</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>pair of tribal war boots</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>pair of winged sandals</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>plain brown shoes</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>sandals of the messenger</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>skull boots of the cosmos</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>swamp coloured boots</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>threadbare old sock</name>
+    <ac/>
+  </item>
+  <item>
+    <name>weathered boots</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>wind boots</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>yellow winged boots</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>bloodied piece of dragon hide</name>
+    <ac/>
+  </item>
+  <item>
+    <name>large, barbed dragon spike</name>
+    <ac/>
+  </item>
+  <item>
+    <name>large, malformed dragon tooth</name>
+    <ac/>
+  </item>
+  <item>
+    <name>lower jaw bone of a large dragon's head</name>
+    <ac/>
+  </item>
+  <item>
+    <name>mangled piece of dragon hide</name>
+    <ac/>
+  </item>
+  <item>
+    <name>ridged skull of a large dragon's head</name>
+    <ac/>
+  </item>
+  <item>
+    <name>ripped piece of dragon hide</name>
+    <ac/>
+  </item>
+  <item>
+    <name>torn piece of dragon hide</name>
+    <ac/>
+  </item>
+  <item>
+    <name>blood-encrusted ring</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>ring of power</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>yellow and green ring</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>Draupnir</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>Eternal Youth and Beauty</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Fluke's chintzy promise ring</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Kahl's ring of Vengeance</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>Ofcol Signet ring</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>Origin</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Ring of Dignity</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>Ring of Magic</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Ring of Wizardry</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Rogue's Ring of Thievery</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Set's ring of Power</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>The Bond of Pandora and Alara's Love</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Torlynn ring</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>Whispers of Excane's Love</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Whispers of Joriah's Love</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>aquamarine ring</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>band of black opal</name>
+    <ac/>
+  </item>
+  <item>
+    <name>band of silver</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>band of valour</name>
+    <ac>18</ac>
+  </item>
+  <item>
+    <name>banded ring of the serpent</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>bat ring</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>bronze ring</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>carved wooden ring</name>
+    <ac>1</ac>
+  </item>
+  <item>
+    <name>cinnamon heart ring</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>clay ring of enchantment</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>copper ring</name>
+    <ac>1</ac>
+  </item>
+  <item>
+    <name>daisy ring</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>dark ring of the Hunter and the Hunted</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>dazzling sapphire ring</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>deep red ring of the underworld</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>diamond ring</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>earth ring</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>energy band of the Magus</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>faculty of reason</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>faculty of thought</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>frosty roseate ring</name>
+    <ac>1</ac>
+  </item>
+  <item>
+    <name>glinting ring of silver</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>gold ring</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>gold ring set with jade</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>golden ring encrusted with diamonds</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>heavy ring of iron</name>
+    <ac>1</ac>
+  </item>
+  <item>
+    <name>hellborne ring of dominion</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>hoop of flowing water</name>
+    <ac/>
+  </item>
+  <item>
+    <name>lightweight ring</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>miskalithon's redemption</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>moonstone ring</name>
+    <ac/>
+  </item>
+  <item>
+    <name>mystical thread</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>nazgul ring of power</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>onyx ring</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>panther-crested ring</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>plain iron ring</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>rhodium ring</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>ring of Saturnalia</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>ring of Solace</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>ring of discord</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>ring of gnarled wood</name>
+    <ac>18</ac>
+  </item>
+  <item>
+    <name>ring of haunting</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>ring of holding</name>
+    <ac/>
+  </item>
+  <item>
+    <name>ring of metamorphosis</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>ring of poison protection</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>ring of sparkling silver</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>ring of spider silk</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>ring of the Ice Witch</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>ring of the ancient gods</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>ring of the dragons</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>ring of the king's navy</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>ring of the universe</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>ring of wisdom</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>runed silver ring</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>scorched band of glass</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>shade ring</name>
+    <ac>18</ac>
+  </item>
+  <item>
+    <name>shard of ruby</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>signet of Aurora</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>signet of Innocence</name>
+    <ac>19</ac>
+  </item>
+  <item>
+    <name>signet of Laurieness</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>signet of silver flame</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>signet of the Darkhaven Guard</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>silver ring of Camelot</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>silver signet bearing the Ravenell seal</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>small ruby ring</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>starred silver ring</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>thief's ring</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>twisted gold jewelled band</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>white ice ring</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>Blackstorm Gauntlets</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Blessed gauntlets of the Templar</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Cursed Gauntlets of the Nephandi</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Darkened Gauntlets</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>Gauntlets of Clan Dominance</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>Gloom's beckonings</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>Golden Gauntlets of the Monkey King</name>
+    <ac>30</ac>
+  </item>
+  <item>
+    <name>Ice Gauntlets</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>Inescapable Grasp of Doom</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Iron Gauntlets of the Divinity</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Iron Hand of Kargoth</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Sin</name>
+    <ac>25</ac>
+  </item>
+  <item>
+    <name>Steel Plated Gloves of the Duer'ain Clan</name>
+    <ac>30</ac>
+  </item>
+  <item>
+    <name>The Gauntlet</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>The Golden Gauntlet</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>The Sentinel</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>Tornado</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Wrist wraps of silken cloth, emblazoned with glyphs of the High Gods</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>alpha wolf's blood</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>assassin's gloves</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>deadly talons</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>dragon's gloves</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>dwarven gloves' is infused with your magic...</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>flaming gauntlets</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>flesh-rending claws</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>fur covered gauntlets of the plains wanderer</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>gardening gloves</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>gauntlets of ogre power</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>gauntlets of red dragonhide</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>gauntlets of the deep lode</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>gentle grey gloves</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>gloves of convalescence</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>gloves of rotten flesh</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>hollow scorpion carapace with many legs attached</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>left gauntlet of red iron</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>lightweight fighting gloves</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>miners gloves</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>pair of antique lace gloves</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>pair of brown fur-lined gloves</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>pair of dragon skin gloves</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>pair of fingerless leather gloves</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>pair of gauntlets</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>pair of jade gauntlets</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>pair of long white gloves</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>pair of oven mitts</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>pair of rotting leather gloves</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>pair of scorpion carapace gloves</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>pair of spiked gauntlets</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>pincers of the queen</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>polished platinum gauntlets</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>shadowy pair of dragonscale gloves</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>six fingered glove</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>soft leather gloves of beneficence</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>some chain gloves</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>steel gauntlets</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>studded leather gauntlets</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>swordsman's gloves</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>tendril of infernal darkness</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>pair of stained underwear</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>"DOOM PIXIE KING" scrawled in blood on his forehead</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>A horned helm</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Balrog's Crown</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Barrik's helmet</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>Bone Helm of Ryuukoroshi</name>
+    <ac>30</ac>
+  </item>
+  <item>
+    <name>Calabarius-marked helm</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Cat's Eye</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>Catastrophe</name>
+    <ac>16</ac>
+  </item>
+  <item>
+    <name>Circlet of Deliverance</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Crown of the Ages</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>Crown of the Ravenells</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Heaume of the Venerable</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>Helm of Dragonkind</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>Helm of Invisibility</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Helm of Light</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Helm of Lightning</name>
+    <ac>16</ac>
+  </item>
+  <item>
+    <name>Hood of Bloodlust</name>
+    <ac>30</ac>
+  </item>
+  <item>
+    <name>Horned Skull of the Daemon Lord</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Ice Helm</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Innanna's headdress</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>Maniacal Tendencies</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Mask of Darkness</name>
+    <ac>25</ac>
+  </item>
+  <item>
+    <name>Mask of Disfigurement</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>Memories of Spring</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>Neptune's golden crown</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Renfrew's engraved silver helm</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>Silver Crescent</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>Slave Crown</name>
+    <ac>-20</ac>
+  </item>
+  <item>
+    <name>Titanic Mask of Gemini</name>
+    <ac>1</ac>
+  </item>
+  <item>
+    <name>Veil of Divine Wrath</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>War's blood-covered helm</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Xvart ceremonial mask</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>antique silver helm</name>
+    <ac>25</ac>
+  </item>
+  <item>
+    <name>battered iron helmet</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>black leather hood</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>black torturer's mask</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>black, brimmed hat</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>bright red clown wig</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>circlet of hazel</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>clear visor</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>cloth hood of the Chosen</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>commander's helm</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>crown of Enlightenment</name>
+    <ac>40</ac>
+  </item>
+  <item>
+    <name>crown of jewels</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>crown of lotus petals</name>
+    <ac>30</ac>
+  </item>
+  <item>
+    <name>demon's masquerade</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>diamond shaped helm of defense</name>
+    <ac>40</ac>
+  </item>
+  <item>
+    <name>dragon's helm</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>dragonscale helmet</name>
+    <ac>26</ac>
+  </item>
+  <item>
+    <name>emerald hairpin</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>ethereal helm</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>executioner's mask</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>extravagantly jeweled crown</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>fishbone hair comb</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>fisherman's hat</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>flawless crown</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>forged helm of vengeance</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>foxpelt</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>frost wyvern circlet</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>frozen pumpkin</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>fur skin cap</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>ghostly wizard's hood</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>gold conical hat with a magical trim of rabbits leaping around the rim</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>golden helm and visor</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>gray hood of a necromancer</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>grime covered helmet</name>
+    <ac/>
+  </item>
+  <item>
+    <name>handful of used bandages</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>headdress of white pearls</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>helm made from a dragon's skull</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>helm of the winterbeast</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>helm of white dragonhide</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>helm of wisdom</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>helmet with a four-foot spike</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>horned helm of the plains wanderer</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>horned helmet</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>iron nasal helm</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>jester's hat</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>leather crown</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>lice infested cap</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>magician's hat</name>
+    <ac/>
+  </item>
+  <item>
+    <name>multi-coloured beanie</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>obsidian helmet</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>obsidian tiara</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>one-horned helm</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>pale green circlet</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>pigskin helmet</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>polished platinum helmet</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>quilled porcupine skin</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>red cone hat</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>rune covered hood 'Ol Gromdal ut Khazad'</name>
+    <ac>25</ac>
+  </item>
+  <item>
+    <name>sailor's hat</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>shade helm</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>small bright green hat</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>small helmet</name>
+    <ac>1</ac>
+  </item>
+  <item>
+    <name>small nest</name>
+    <ac/>
+  </item>
+  <item>
+    <name>soft leather hood</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>steel helmet</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>swirling silver mist</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>tiny forest green cap</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>tophat</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>torn, blackened muzzle</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>troll hide helm</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>white kerchief</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>winter toque</name>
+    <ac>25</ac>
+  </item>
+  <item>
+    <name>wrath of the Glar'kai</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>studded leather quiver</name>
+    <ac/>
+  </item>
+  <item>
+    <name>"Black" Jack's Green Winter Ale</name>
+    <ac/>
+  </item>
+  <item>
+    <name>'Happy Canada Day!' flag</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>A handful of tiny pumpkin head cookies</name>
+    <ac/>
+  </item>
+  <item>
+    <name>A jello filled bat</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Abishai's secret journal</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Black Rod of the Four Winds</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Brajtkomu's sceptre of Doom</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Cross of Divinity</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>Dominance of Colours</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Elainne's protection from all things sharp</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Elven flute</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Elvish Presley's Donut Box</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Father Time's black bong of deliberation</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Flame of Entropy</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Guard of Legends</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Halion's marriage license</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Hilt of Legends</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Ho'chran pipe</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Hobbit's Journal</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Ice Orb</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Matrix of Desolution</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Millennium</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Naris' Little Helper</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Nightmares Unleashed</name>
+    <ac>35</ac>
+  </item>
+  <item>
+    <name>Oil of Hindu Grass</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Orb of Lore</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Orb of the Felonarch</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Pharoah's Sceptre</name>
+    <ac>16</ac>
+  </item>
+  <item>
+    <name>Purificare</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>Red DragonOrb</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Rod of Charon</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Ruling Sceptre</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Scythe of Death</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Scythe of Death' is infused with your magic...</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Shield Of Honour</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Song of the Sinless Soul</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>Spirit Gem</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Staff of Barad-Dur</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Staff of Oop-si'dai-sey</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Staff of Poison</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Staff of the Dragon</name>
+    <ac/>
+  </item>
+  <item>
+    <name>The New Player's Guide</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>The Staff of Dr. Bombay</name>
+    <ac/>
+  </item>
+  <item>
+    <name>the Storm</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>The never empty beer stein of Lord Darrek</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Wand of Decay</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Wand of Night</name>
+    <ac/>
+  </item>
+  <item>
+    <name>amythyst monkey</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>ancient golden harp</name>
+    <ac/>
+  </item>
+  <item>
+    <name>ancient silver coin</name>
+    <ac/>
+  </item>
+  <item>
+    <name>ankh of life</name>
+    <ac/>
+  </item>
+  <item>
+    <name>anti-cyclops elixir</name>
+    <ac/>
+  </item>
+  <item>
+    <name>antimagic shell potion</name>
+    <ac/>
+  </item>
+  <item>
+    <name>antique porcelain doll</name>
+    <ac/>
+  </item>
+  <item>
+    <name>apple of life</name>
+    <ac/>
+  </item>
+  <item>
+    <name>baby's bottle</name>
+    <ac/>
+  </item>
+  <item>
+    <name>beautiful sunflower</name>
+    <ac/>
+  </item>
+  <item>
+    <name>beautifully wrapped gift from Rebeca to Krelian</name>
+    <ac/>
+  </item>
+  <item>
+    <name>big red apple</name>
+    <ac/>
+  </item>
+  <item>
+    <name>bill of sale</name>
+    <ac/>
+  </item>
+  <item>
+    <name>birch twig</name>
+    <ac/>
+  </item>
+  <item>
+    <name>black pearl</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>blazing staff of fire</name>
+    <ac/>
+  </item>
+  <item>
+    <name>blooming lotus flower</name>
+    <ac/>
+  </item>
+  <item>
+    <name>blue crystal staff</name>
+    <ac/>
+  </item>
+  <item>
+    <name>bottle of Absolut vodka</name>
+    <ac/>
+  </item>
+  <item>
+    <name>bottle of cranberry juice</name>
+    <ac/>
+  </item>
+  <item>
+    <name>bottle of homemade moonshine</name>
+    <ac/>
+  </item>
+  <item>
+    <name>bound spellbook of 'quantum spike', 'quantum spike' and 'quantum spike'</name>
+    <ac/>
+  </item>
+  <item>
+    <name>bouquet of wild flowers</name>
+    <ac/>
+  </item>
+  <item>
+    <name>branch of the Clan Tree</name>
+    <ac/>
+  </item>
+  <item>
+    <name>brass buckle</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>broken heart of a soldier</name>
+    <ac/>
+  </item>
+  <item>
+    <name>broken moose antler</name>
+    <ac/>
+  </item>
+  <item>
+    <name>brown leather satchel</name>
+    <ac/>
+  </item>
+  <item>
+    <name>brownish mushroom with pink markings</name>
+    <ac/>
+  </item>
+  <item>
+    <name>burnished staff of perpetual flame</name>
+    <ac/>
+  </item>
+  <item>
+    <name>butterfly net</name>
+    <ac/>
+  </item>
+  <item>
+    <name>carved wooden pipe</name>
+    <ac/>
+  </item>
+  <item>
+    <name>choice of reconciliation</name>
+    <ac/>
+  </item>
+  <item>
+    <name>clay pipe</name>
+    <ac/>
+  </item>
+  <item>
+    <name>copper ladle</name>
+    <ac/>
+  </item>
+  <item>
+    <name>coral monkey</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>couple lady slippers</name>
+    <ac/>
+  </item>
+  <item>
+    <name>crinkled parchment</name>
+    <ac/>
+  </item>
+  <item>
+    <name>crystal grave marker</name>
+    <ac/>
+  </item>
+  <item>
+    <name>crystal of healing</name>
+    <ac/>
+  </item>
+  <item>
+    <name>crystal orb of flow</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>crystal potion</name>
+    <ac/>
+  </item>
+  <item>
+    <name>cure blindness and armor potion</name>
+    <ac/>
+  </item>
+  <item>
+    <name>cure blindness scroll</name>
+    <ac/>
+  </item>
+  <item>
+    <name>deck of playing cards</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>delicate silver mirror</name>
+    <ac/>
+  </item>
+  <item>
+    <name>delightful little rag doll</name>
+    <ac/>
+  </item>
+  <item>
+    <name>dew covered rose</name>
+    <ac/>
+  </item>
+  <item>
+    <name>dicing cup</name>
+    <ac/>
+  </item>
+  <item>
+    <name>dirty rag doll</name>
+    <ac/>
+  </item>
+  <item>
+    <name>dirty shovel</name>
+    <ac/>
+  </item>
+  <item>
+    <name>dirty wash rag</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>dispel evil potion' is infused with your magic...</name>
+    <ac/>
+  </item>
+  <item>
+    <name>dispel magic potion</name>
+    <ac/>
+  </item>
+  <item>
+    <name>dozen long stemmed red roses</name>
+    <ac/>
+  </item>
+  <item>
+    <name>dragon orb</name>
+    <ac/>
+  </item>
+  <item>
+    <name>dragon's rod</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>edelweiss</name>
+    <ac/>
+  </item>
+  <item>
+    <name>eight monkeys</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>elemental staff of wind and air</name>
+    <ac/>
+  </item>
+  <item>
+    <name>expensive-looking pocket watch</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>fang filled with venom</name>
+    <ac/>
+  </item>
+  <item>
+    <name>feather of flame</name>
+    <ac/>
+  </item>
+  <item>
+    <name>fireburst flower</name>
+    <ac/>
+  </item>
+  <item>
+    <name>fireshield potion</name>
+    <ac/>
+  </item>
+  <item>
+    <name>flamethrower's stick</name>
+    <ac/>
+  </item>
+  <item>
+    <name>flask of gutbuster</name>
+    <ac/>
+  </item>
+  <item>
+    <name>flask of holy water</name>
+    <ac/>
+  </item>
+  <item>
+    <name>flask of power</name>
+    <ac/>
+  </item>
+  <item>
+    <name>footlocker</name>
+    <ac/>
+  </item>
+  <item>
+    <name>forked hazel twig</name>
+    <ac/>
+  </item>
+  <item>
+    <name>fragile daffodil</name>
+    <ac/>
+  </item>
+  <item>
+    <name>frosty mug of everbeer</name>
+    <ac/>
+  </item>
+  <item>
+    <name>glass jar with a wide rim</name>
+    <ac/>
+  </item>
+  <item>
+    <name>gnarled oak walking stick</name>
+    <ac/>
+  </item>
+  <item>
+    <name>gold Xvart idol</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>gold bar</name>
+    <ac/>
+  </item>
+  <item>
+    <name>golden dragon statuette</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>golden lyre</name>
+    <ac/>
+  </item>
+  <item>
+    <name>golden sceptre</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>golden staff of the Hunter</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>golden wand</name>
+    <ac/>
+  </item>
+  <item>
+    <name>green and white monkeys</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>grog of the gargoyle</name>
+    <ac/>
+  </item>
+  <item>
+    <name>grounding potion</name>
+    <ac/>
+  </item>
+  <item>
+    <name>gypsum monkey</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>handful of blinding sand</name>
+    <ac/>
+  </item>
+  <item>
+    <name>handful of fresh manure</name>
+    <ac/>
+  </item>
+  <item>
+    <name>handful of magical soil</name>
+    <ac/>
+  </item>
+  <item>
+    <name>handful of rose petals</name>
+    <ac/>
+  </item>
+  <item>
+    <name>handful of trash</name>
+    <ac/>
+  </item>
+  <item>
+    <name>haversack</name>
+    <ac/>
+  </item>
+  <item>
+    <name>heart-shaped box</name>
+    <ac/>
+  </item>
+  <item>
+    <name>holy grail</name>
+    <ac/>
+  </item>
+  <item>
+    <name>horn of life</name>
+    <ac/>
+  </item>
+  <item>
+    <name>huge stirring spoon</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>iceshield potion</name>
+    <ac/>
+  </item>
+  <item>
+    <name>icicle wand</name>
+    <ac/>
+  </item>
+  <item>
+    <name>intricately designed wire flower holder</name>
+    <ac/>
+  </item>
+  <item>
+    <name>ivory cane</name>
+    <ac/>
+  </item>
+  <item>
+    <name>ivory dice</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>ivory staff</name>
+    <ac/>
+  </item>
+  <item>
+    <name>jade cameo</name>
+    <ac/>
+  </item>
+  <item>
+    <name>jade monkey</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>key to Darkwall</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>kraken's eye</name>
+    <ac/>
+  </item>
+  <item>
+    <name>little merman soldier</name>
+    <ac/>
+  </item>
+  <item>
+    <name>long-stemmed, peach gladiolus</name>
+    <ac/>
+  </item>
+  <item>
+    <name>lump of decaying flesh</name>
+    <ac/>
+  </item>
+  <item>
+    <name>mahogany staff named 'Divine Solemnity'</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>marble figurine of Brimstone throwing a spear</name>
+    <ac/>
+  </item>
+  <item>
+    <name>marble figurine of Konan throwing an axe</name>
+    <ac/>
+  </item>
+  <item>
+    <name>marble figurine of Raeveari dancing</name>
+    <ac/>
+  </item>
+  <item>
+    <name>marble figurine of Thoric</name>
+    <ac/>
+  </item>
+  <item>
+    <name>marble figurine of a rampant horse</name>
+    <ac/>
+  </item>
+  <item>
+    <name>misshapen lump of coal</name>
+    <ac/>
+  </item>
+  <item>
+    <name>mug of strong tea</name>
+    <ac/>
+  </item>
+  <item>
+    <name>note from Gonnil to Meekon: how we should do ris</name>
+    <ac/>
+  </item>
+  <item>
+    <name>obsidian disk</name>
+    <ac/>
+  </item>
+  <item>
+    <name>old book</name>
+    <ac/>
+  </item>
+  <item>
+    <name>old treasure map</name>
+    <ac/>
+  </item>
+  <item>
+    <name>ornate flask of Tielton's finest cabernet</name>
+    <ac/>
+  </item>
+  <item>
+    <name>pair of linked, green monkeys</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>pale brown mushroom</name>
+    <ac/>
+  </item>
+  <item>
+    <name>pale pink tulip</name>
+    <ac/>
+  </item>
+  <item>
+    <name>passion flower</name>
+    <ac/>
+  </item>
+  <item>
+    <name>perfume in a crystal vial</name>
+    <ac/>
+  </item>
+  <item>
+    <name>periapt of health</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>petrified wood</name>
+    <ac/>
+  </item>
+  <item>
+    <name>philosopher's stone</name>
+    <ac/>
+  </item>
+  <item>
+    <name>piece of driftwood</name>
+    <ac/>
+  </item>
+  <item>
+    <name>pink begonia</name>
+    <ac/>
+  </item>
+  <item>
+    <name>platinum coin stamped 'the luck of the Gods'</name>
+    <ac/>
+  </item>
+  <item>
+    <name>pouch woven from spider silk</name>
+    <ac/>
+  </item>
+  <item>
+    <name>prairie feather flower</name>
+    <ac/>
+  </item>
+  <item>
+    <name>prison gem</name>
+    <ac/>
+  </item>
+  <item>
+    <name>pumice stone</name>
+    <ac/>
+  </item>
+  <item>
+    <name>purple crocus</name>
+    <ac/>
+  </item>
+  <item>
+    <name>quartz monkey</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>quill pen' is infused with your magic...</name>
+    <ac/>
+  </item>
+  <item>
+    <name>rare cereus flower</name>
+    <ac/>
+  </item>
+  <item>
+    <name>remove hex potion</name>
+    <ac/>
+  </item>
+  <item>
+    <name>round, blue stone</name>
+    <ac/>
+  </item>
+  <item>
+    <name>rounded, flat stone</name>
+    <ac/>
+  </item>
+  <item>
+    <name>ruby monkey</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>ruby pendant</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sacred scroll</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sanctuary potion</name>
+    <ac/>
+  </item>
+  <item>
+    <name>satchel of dark demon flesh</name>
+    <ac/>
+  </item>
+  <item>
+    <name>scarlet and blue stone</name>
+    <ac/>
+  </item>
+  <item>
+    <name>scarlet begonia</name>
+    <ac/>
+  </item>
+  <item>
+    <name>scroll of passage</name>
+    <ac/>
+  </item>
+  <item>
+    <name>set of bagpipes</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>set of finely carved prayer beads</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>set of multicolored balls</name>
+    <ac/>
+  </item>
+  <item>
+    <name>set of shepherd's pipes</name>
+    <ac/>
+  </item>
+  <item>
+    <name>shabby stuffed unicorn</name>
+    <ac/>
+  </item>
+  <item>
+    <name>shell horn</name>
+    <ac/>
+  </item>
+  <item>
+    <name>shimmering crystal pipe</name>
+    <ac/>
+  </item>
+  <item>
+    <name>shockshield potion</name>
+    <ac/>
+  </item>
+  <item>
+    <name>short, twisted branch</name>
+    <ac/>
+  </item>
+  <item>
+    <name>silver belt buckle</name>
+    <ac/>
+  </item>
+  <item>
+    <name>silver staff</name>
+    <ac/>
+  </item>
+  <item>
+    <name>silver tipped cane</name>
+    <ac/>
+  </item>
+  <item>
+    <name>skull of B'rakkum</name>
+    <ac/>
+  </item>
+  <item>
+    <name>skull of Danbala Wedo</name>
+    <ac/>
+  </item>
+  <item>
+    <name>skull of Set</name>
+    <ac/>
+  </item>
+  <item>
+    <name>slimy branch</name>
+    <ac/>
+  </item>
+  <item>
+    <name>small birch chest</name>
+    <ac/>
+  </item>
+  <item>
+    <name>small bouquet of fresh violets</name>
+    <ac/>
+  </item>
+  <item>
+    <name>small garnet</name>
+    <ac/>
+  </item>
+  <item>
+    <name>small loaf of bread</name>
+    <ac/>
+  </item>
+  <item>
+    <name>small pan flute</name>
+    <ac/>
+  </item>
+  <item>
+    <name>small pot of wax</name>
+    <ac/>
+  </item>
+  <item>
+    <name>small, broken golden chain</name>
+    <ac/>
+  </item>
+  <item>
+    <name>solomonic crucifix</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>some gauze netting</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sorcerer's walking stick</name>
+    <ac/>
+  </item>
+  <item>
+    <name>splash of sticky, green goo</name>
+    <ac/>
+  </item>
+  <item>
+    <name>spy glass</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>staff of Hans Flurry</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>staff of Mourning</name>
+    <ac/>
+  </item>
+  <item>
+    <name>staff of Ravenell</name>
+    <ac/>
+  </item>
+  <item>
+    <name>stone raven</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>strange template</name>
+    <ac/>
+  </item>
+  <item>
+    <name>straw broom' is infused with your magic...</name>
+    <ac/>
+  </item>
+  <item>
+    <name>stuffed kitty cat</name>
+    <ac/>
+  </item>
+  <item>
+    <name>stuffed puppy dog</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sugilite monkey</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>symbol of faith</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>throwing dart</name>
+    <ac/>
+  </item>
+  <item>
+    <name>tinted visions</name>
+    <ac/>
+  </item>
+  <item>
+    <name>tiny emerald music box</name>
+    <ac/>
+  </item>
+  <item>
+    <name>tiny pixie magic wand</name>
+    <ac/>
+  </item>
+  <item>
+    <name>tiny, red stained, crystal bowl</name>
+    <ac/>
+  </item>
+  <item>
+    <name>toy marionette</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>toy stuffed monkey</name>
+    <ac/>
+  </item>
+  <item>
+    <name>troll staff</name>
+    <ac/>
+  </item>
+  <item>
+    <name>true sight potion</name>
+    <ac/>
+  </item>
+  <item>
+    <name>turquoise monkey</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>used pipe</name>
+    <ac/>
+  </item>
+  <item>
+    <name>vial of Waisea oil</name>
+    <ac/>
+  </item>
+  <item>
+    <name>vial of marigold water</name>
+    <ac/>
+  </item>
+  <item>
+    <name>viewglass of Ondanguar</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>violin</name>
+    <ac/>
+  </item>
+  <item>
+    <name>ward minor</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>well used shovel</name>
+    <ac/>
+  </item>
+  <item>
+    <name>white lotus flower</name>
+    <ac/>
+  </item>
+  <item>
+    <name>white monkeys</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>white moonflower blossom</name>
+    <ac/>
+  </item>
+  <item>
+    <name>white phantom orchid</name>
+    <ac/>
+  </item>
+  <item>
+    <name>wicker basket</name>
+    <ac/>
+  </item>
+  <item>
+    <name>wild columbine</name>
+    <ac/>
+  </item>
+  <item>
+    <name>willow branch</name>
+    <ac/>
+  </item>
+  <item>
+    <name>wilted wildflowers</name>
+    <ac/>
+  </item>
+  <item>
+    <name>wineflask</name>
+    <ac/>
+  </item>
+  <item>
+    <name>wooden figurine of Halion throwing an axe</name>
+    <ac/>
+  </item>
+  <item>
+    <name>wooden figurine of Mossweaver throwing a spear</name>
+    <ac/>
+  </item>
+  <item>
+    <name>wooden figurine of a roaring lion</name>
+    <ac/>
+  </item>
+  <item>
+    <name>wooden lute</name>
+    <ac/>
+  </item>
+  <item>
+    <name>wooden mandora</name>
+    <ac/>
+  </item>
+  <item>
+    <name>wooden toy dwarf knight</name>
+    <ac/>
+  </item>
+  <item>
+    <name>wraith staff</name>
+    <ac/>
+  </item>
+  <item>
+    <name>yellow begonia</name>
+    <ac/>
+  </item>
+  <item>
+    <name>pet call</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Blackened Legplates of the Daemon Lord</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Demonhide Leggings</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Dra'iocht of the Druidae</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Jade Guard of the Ancients</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>Wooden Greaves of the Ocean Wanderer</name>
+    <ac>18</ac>
+  </item>
+  <item>
+    <name>ashen leggings of the savrathi</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>black hide pants</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>black leather pants</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>black ring mail greaves of the Falcon</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>black tights</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>bloody greaves of Rapture and Dysphoria</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>celestial greaves of purity</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>clinging strips of parasite fungus</name>
+    <ac>1</ac>
+  </item>
+  <item>
+    <name>cloth leggings of the Chosen</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>cream-colored harem pants</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>deerhide pants</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>dwarven leggings</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>eltor-hide leggings</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>fallohide's leather breeches</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>filthy kilt</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>frilly pink panties</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>fringed, buckskin breeches</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>godskull shinguards</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>gold dragonhide greaves</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>green tights</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>heavy, woolen kilt</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>hellfire leggings</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>intricately stitched pair of pants</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>kalibrate leggings</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>knickers</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>leather leggings with a feathered trim</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>leggings of War</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>leggings of black cloth</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>leggings of dark dragonscale</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>leopard skin briefs</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>lizard gaiters</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>metallic leggings</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>obsidian leggings</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>pair of Sphinx leggings</name>
+    <ac>18</ac>
+  </item>
+  <item>
+    <name>pair of azure leggings</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>pair of black and white checkered leggings</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>pair of black leather pants</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>pair of black steel shinguards</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>pair of blue pants with holes in the knees</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>pair of brown trousers</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>pair of deadly ridged leggings</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>pair of dragonscale greaves</name>
+    <ac>28</ac>
+  </item>
+  <item>
+    <name>pair of elfskin leggings</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>pair of golden leggings</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>pair of shredded leggings</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>pair of troll hide leggings</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>pink lace garter</name>
+    <ac/>
+  </item>
+  <item>
+    <name>polished platinum leggings</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>scarlet tights</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>set of icy leggings</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>shadowy pair of dragonscale leggings</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>some silvery leg plates</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>tiger skin briefs</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>white trollskin skirt</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>woven frost leggings</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>zebra skin briefs</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>A bright ball of light</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Aura of the Righteous</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Brand of Honor</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Cascading Vortex</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Crusade</name>
+    <ac/>
+  </item>
+  <item>
+    <name>DragonOrb of Gealcath</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Faerie Trefoil</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Hope</name>
+    <ac/>
+  </item>
+  <item>
+    <name>I quested my tail off at the 10th Anniversary Reunion and all I got was this crappy ball of light</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Luminarium</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Mark of Darkness</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Mark of the King</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Orb of the Sun</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Rod of Neutrality</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Rod of Solomon</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Sceptre of Might</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Shifting black flames</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Sigil of Alex</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Spirit Light</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Timelessness</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Unholy Symbol of the Damned</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Wraith Light</name>
+    <ac/>
+  </item>
+  <item>
+    <name>ancient banner of the Clan Dubh Glas</name>
+    <ac/>
+  </item>
+  <item>
+    <name>ball of flame</name>
+    <ac/>
+  </item>
+  <item>
+    <name>ball of iridescent light</name>
+    <ac/>
+  </item>
+  <item>
+    <name>banner of royal colors</name>
+    <ac/>
+  </item>
+  <item>
+    <name>birch bark torch</name>
+    <ac/>
+  </item>
+  <item>
+    <name>black stick crowned with a skull</name>
+    <ac/>
+  </item>
+  <item>
+    <name>brass wicklamp</name>
+    <ac/>
+  </item>
+  <item>
+    <name>bridge</name>
+    <ac/>
+  </item>
+  <item>
+    <name>brightly flaming stone</name>
+    <ac/>
+  </item>
+  <item>
+    <name>chantilly lace</name>
+    <ac/>
+  </item>
+  <item>
+    <name>glowing beacon</name>
+    <ac/>
+  </item>
+  <item>
+    <name>glowing crystal</name>
+    <ac/>
+  </item>
+  <item>
+    <name>glowing firefly tail</name>
+    <ac/>
+  </item>
+  <item>
+    <name>glowing globe</name>
+    <ac/>
+  </item>
+  <item>
+    <name>golden apple of discord</name>
+    <ac/>
+  </item>
+  <item>
+    <name>griffon lantern</name>
+    <ac/>
+  </item>
+  <item>
+    <name>griffon slayer's orb</name>
+    <ac/>
+  </item>
+  <item>
+    <name>holy light</name>
+    <ac/>
+  </item>
+  <item>
+    <name>ice crystals</name>
+    <ac/>
+  </item>
+  <item>
+    <name>inquisitor's beacon</name>
+    <ac/>
+  </item>
+  <item>
+    <name>jack o'lantern</name>
+    <ac/>
+  </item>
+  <item>
+    <name>jack-o'-lantern</name>
+    <ac/>
+  </item>
+  <item>
+    <name>lost soul enslaved inside a globe</name>
+    <ac/>
+  </item>
+  <item>
+    <name>mining lamp</name>
+    <ac/>
+  </item>
+  <item>
+    <name>mystic lantern of the ages</name>
+    <ac/>
+  </item>
+  <item>
+    <name>oil lamp</name>
+    <ac/>
+  </item>
+  <item>
+    <name>orb of fire</name>
+    <ac/>
+  </item>
+  <item>
+    <name>precise brilliance</name>
+    <ac/>
+  </item>
+  <item>
+    <name>rays of the sun</name>
+    <ac/>
+  </item>
+  <item>
+    <name>searing flames</name>
+    <ac/>
+  </item>
+  <item>
+    <name>shadowed lantern</name>
+    <ac/>
+  </item>
+  <item>
+    <name>short stub of a candle</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of A'enari</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Adonia</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Bael</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Bron'trel</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Cawyn</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Cru'udakh</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Estathius</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Gre'Vos</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Kalerd</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Kali</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Kardis</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Keltas</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Law</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Masefi</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Sarane</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Sh'Vath</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Shivvan</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Sil-Galith</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Tempus</name>
+    <ac/>
+  </item>
+  <item>
+    <name>sigil of Vl'aresch</name>
+    <ac/>
+  </item>
+  <item>
+    <name>small quill</name>
+    <ac/>
+  </item>
+  <item>
+    <name>small, bright moon orb</name>
+    <ac/>
+  </item>
+  <item>
+    <name>source of magie noire</name>
+    <ac/>
+  </item>
+  <item>
+    <name>storm lamp</name>
+    <ac/>
+  </item>
+  <item>
+    <name>tiny candle</name>
+    <ac/>
+  </item>
+  <item>
+    <name>torch of evil</name>
+    <ac/>
+  </item>
+  <item>
+    <name>twilight's beacon</name>
+    <ac/>
+  </item>
+  <item>
+    <name>unexpected life</name>
+    <ac/>
+  </item>
+  <item>
+    <name>unholy darkness</name>
+    <ac/>
+  </item>
+  <item>
+    <name>wax candle</name>
+    <ac/>
+  </item>
+  <item>
+    <name>white crystal of blessing</name>
+    <ac/>
+  </item>
+  <item>
+    <name>winged egg</name>
+    <ac/>
+  </item>
+  <item>
+    <name>grey, woolen cape</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>silver crucifix on a chain</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>small, silver cross</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Amulet of the Sun</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>Ankh of Shadows</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>Aura of Corruption</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>Blackstone Amulet</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Cloak of Bloodlust</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>Collar of Abyssal Servitude</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Crossbones necklace</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Garland of Skulls</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Key of Gr'staka' is infused with your magic...</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Key to Light</name>
+    <ac>40</ac>
+  </item>
+  <item>
+    <name>Mantle of Gore</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Medal of Clan Freedom</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Medallion of Faith</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>Medallion of Honor</name>
+    <ac>24</ac>
+  </item>
+  <item>
+    <name>Methuselahs Amulet</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Mystic Chains of the Seer</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Pharaoh's Ankh</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>Rights to Chivalry</name>
+    <ac>16</ac>
+  </item>
+  <item>
+    <name>Shimmergloom pendant</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>Solace charm</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>amulet of dragon teeth on a mithril chain</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>amulet of dragon teeth on a silver chain</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>amulet of the moon</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>ancient diamond brooch</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>aquamarine locket</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>bearskin cloak</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>beautiful blue coral pendant</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>beautiful glowing blue pendant</name>
+    <ac>100</ac>
+  </item>
+  <item>
+    <name>beholder holy symbol</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>billowing white cape</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>black cape</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>black chain and pentacle</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>black leather cord</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>black plate neckguard</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>blessed silver cross of Ravenell</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>blood-drenched scarf</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>bloodstone collar</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>bloody neckguard of the Defiler</name>
+    <ac>16</ac>
+  </item>
+  <item>
+    <name>blue collar</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>blue stone amulet</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>blue-silver iron gorget</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>boa cape</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>bone necklet inlaid with gold</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>broach of life</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>captain's cloak</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>claw of the cave bear</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>cloak of solitude</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>cloak of storage</name>
+    <ac/>
+  </item>
+  <item>
+    <name>colourful handmade necklace</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>colourful scarf</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>cord dangling with the severed ears of the fallen</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>dark cowl</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>delicate bell on a chain</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>elemental amulet</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>emerald and sapphire necklace</name>
+    <ac>35</ac>
+  </item>
+  <item>
+    <name>exquisite golden locket</name>
+    <ac>45</ac>
+  </item>
+  <item>
+    <name>flame red cape</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>frayed string of leaves</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>gem encrusted dog collar</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>glistening white stone pendant</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>gold rope chain</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>golden braid</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>golden holy symbol</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>golden ring, strung upon a necklace</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>golden torque</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>jade necklace</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>lettered chain that spells out 'I Bank Edobank'</name>
+    <ac/>
+  </item>
+  <item>
+    <name>lion-crested neck guard</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>minion's memorial pendant of satan</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>mirrored locket</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>monkey tooth necklace</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>mysterious talisman</name>
+    <ac/>
+  </item>
+  <item>
+    <name>mystical amulet</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>necklace made from the mane of the beast</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>necklace of raven feathers</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>necklace of rotten teeth</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>necklace of self-righteousness</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>obsidian cloak</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>old, worn bhana</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>pendant with a silver heart</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>pendant with a silver skull</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>platinum chained mantle of O'laski</name>
+    <ac>16</ac>
+  </item>
+  <item>
+    <name>platinum pendant and chain named 'The Empyreal Despoiler of Gnomekin'</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>pulsating heart of the beast</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>rainbow pendant of Laurieness</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>red silk scarf</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>rhodium necklace</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>rosary beads</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>ruby encrusted necklace</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>salvation of Aurora</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>sapphire amulet, bearing the Tyrrhenu emblem</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>scale of the Leviathan</name>
+    <ac>16</ac>
+  </item>
+  <item>
+    <name>scales of alpha &amp; omega</name>
+    <ac>40</ac>
+  </item>
+  <item>
+    <name>sharktooth necklace</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>silver chain necklace</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>silver locket encrusted with amethysts</name>
+    <ac/>
+  </item>
+  <item>
+    <name>silver pendant</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>silver torque</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>small platinum clasp</name>
+    <ac/>
+  </item>
+  <item>
+    <name>small silver locket</name>
+    <ac/>
+  </item>
+  <item>
+    <name>spiked collar</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>stitched quiver</name>
+    <ac/>
+  </item>
+  <item>
+    <name>string of dragon teeth</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>swirled collar</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>tabard of the fallen victor</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>talisman of Darkfire</name>
+    <ac>18</ac>
+  </item>
+  <item>
+    <name>talisman of Demonolatry</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>talisman of the Black Dragon</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>tattered plaid cloak</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>tear of the Gods</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>tendril of the triffid</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>topaz collar</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>traveling cloak</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>unicorn horn medallion</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>unicorn pendant</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>vestment of embroidered silk</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>rune of purification</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Battlehammer clan shield</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>Blackstorm Shield</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Dark, fated mists</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>Drake Shield</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Enslaved Shadows</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Prism Shield</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>Shield of War</name>
+    <ac>35</ac>
+  </item>
+  <item>
+    <name>Shield of the Ravager</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Torlynn shield</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>battered shield</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>battle shield of the Dragonlord</name>
+    <ac>40</ac>
+  </item>
+  <item>
+    <name>black kite shield</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>bouclier blanche de la pierre</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>brightly glowing shield</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>bronze shield</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>bulette carapace shield</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>clam shell shield</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>crested shield</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>dragonscale shield</name>
+    <ac>35</ac>
+  </item>
+  <item>
+    <name>eagle shield</name>
+    <ac>18</ac>
+  </item>
+  <item>
+    <name>fossilized shell fragment</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>golden dragonscale shield</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>highland buckler</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>huge shield of oak</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>huge tower shield</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>ivory colored tower shield of the Lily</name>
+    <ac>40</ac>
+  </item>
+  <item>
+    <name>lightweight shield of Cold Blue</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>old stone shield</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>polished brass shield</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>savrathi battleshield</name>
+    <ac>19</ac>
+  </item>
+  <item>
+    <name>shade shield</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>shadow shield</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>shield of defense</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>shield of ice</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>shield of red demonskin</name>
+    <ac>30</ac>
+  </item>
+  <item>
+    <name>shield of the Behemoth</name>
+    <ac>25</ac>
+  </item>
+  <item>
+    <name>shield of the Valkyrie</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>shield of the deep lode</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>studded shield</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>tortoise-shell shield</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>dull iron keyring</name>
+    <ac/>
+  </item>
+  <item>
+    <name>pouch of purple cloth</name>
+    <ac/>
+  </item>
+  <item>
+    <name>dragon armband</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>Corruption of the Innocent</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>Evangelian</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>Ice Girth</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>Lidstrom's delicately engraved belt</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>Titanic Belt of Orion</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>airy gossamer sash</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>belt of birch bark</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>belt of golem-strength</name>
+    <ac>26</ac>
+  </item>
+  <item>
+    <name>belt of sharp spikes</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>belt pouch</name>
+    <ac/>
+  </item>
+  <item>
+    <name>belt with pouches sewn into the seams</name>
+    <ac/>
+  </item>
+  <item>
+    <name>black belt crested with blood-crying skulls</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>black silk belt</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>black silk g-string</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>blackened, mangled belt</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>bloated intestines</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>bloody kilt of the fallen</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>blue metal chain</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>braided belt of flesh</name>
+    <ac>18</ac>
+  </item>
+  <item>
+    <name>braided thin-rope belt</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>circle of mists</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>cloudy blue sash</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>cord of braided rope</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>cream-colored sash</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>dark green canteen</name>
+    <ac/>
+  </item>
+  <item>
+    <name>dark leather belt</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>dark, ever shifting belt</name>
+    <ac>30</ac>
+  </item>
+  <item>
+    <name>decaying skins of the dead</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>dragonscale girth</name>
+    <ac>29</ac>
+  </item>
+  <item>
+    <name>fallohide's waist sash</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>fate banshee's pouch</name>
+    <ac/>
+  </item>
+  <item>
+    <name>filthy loincloth</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>giant grinning worm named 'Meat Boots'</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>gilded chastity belt</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>girth of mangled hide</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>gold buckled belt</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>halfling-hair belt</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>heavy woolen apron</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>holstered belt</name>
+    <ac/>
+  </item>
+  <item>
+    <name>icy girth</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>la memoire des flammes</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>large beltpouch</name>
+    <ac/>
+  </item>
+  <item>
+    <name>leather belt with a brass buckle</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>leather pouch</name>
+    <ac/>
+  </item>
+  <item>
+    <name>lion-crested belt</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>metallic belt</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>old leather belt</name>
+    <ac>17</ac>
+  </item>
+  <item>
+    <name>plaid cotton apron</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>platinum band of the Draco Viridis</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>polished girth of silver</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>quiver of homemade arrows</name>
+    <ac/>
+  </item>
+  <item>
+    <name>red satin sash</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>rune encrusted girdle of lore</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>sash of prophetic knowledge</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>sash of the destitute</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>sash of the magi</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>silken sash of the Defiler</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>silver-buckled belt</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>skin of the Gods</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>steel girth</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>strip of brown leather</name>
+    <ac/>
+  </item>
+  <item>
+    <name>strip of purple demonhide</name>
+    <ac>16</ac>
+  </item>
+  <item>
+    <name>strong leather belt</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>studded black leather belt</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>sturdy cinch of black mutant leather</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>thain girth</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>thick metal chain</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>twisted belt of braided hair</name>
+    <ac>26</ac>
+  </item>
+  <item>
+    <name>une chaine carbonis de metal</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>waistband of braided rope</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>gravedigger's spade</name>
+    <ac/>
+  </item>
+  <item>
+    <name>piece of time everlasting</name>
+    <ac/>
+  </item>
+  <item>
+    <name>Bracer of Light</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>Cuffs of Depravity</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Guard of Raven Black</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>Queen Guenevere's bracelet</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>Seal of the Chturhk</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>Titanic Bracelet of Virgo</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>ancient bracelet of enchantment</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>archaic bracer</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>azure bracelet</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>azure bracer</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>beaded leather thong</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>black metallic wristlet</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>bracelet of bronze set with jade</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>bracer of Dantrag Baenre</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>bracer of barbed dragon spikes</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>bracer of charisma</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>bracer of fire</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>bracer of frost</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>bracer of the Elder Gods</name>
+    <ac>18</ac>
+  </item>
+  <item>
+    <name>bracer of the deep lode</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>brand of the Black Dragon</name>
+    <ac>18</ac>
+  </item>
+  <item>
+    <name>bright silver bracer</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>brown leather bracelet</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>charm wristlet</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>circlet of twisted ivy</name>
+    <ac>14</ac>
+  </item>
+  <item>
+    <name>cloth wristband of the Chosen</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>copper bracelet</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>crystal dragon bracer</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>cuff of fire</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>delicate silver bracelet</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>dense wooden bracer wrapped in leather</name>
+    <ac>20</ac>
+  </item>
+  <item>
+    <name>emerald bracelet</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>gairdean gailleannach</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>glinting silver bracelet</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>gold chain bracelet</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>jade bracelet</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>leather bracer</name>
+    <ac>4</ac>
+  </item>
+  <item>
+    <name>leather restraints</name>
+    <ac>8</ac>
+  </item>
+  <item>
+    <name>lion-crested bracer</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>mind flayer tentacle</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>obsidian bracer</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>onyx bracelet</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>opal bracelet</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>pair of golden bracers</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>piranha tooth wristlet</name>
+    <ac>6</ac>
+  </item>
+  <item>
+    <name>platinum bracelet</name>
+    <ac>7</ac>
+  </item>
+  <item>
+    <name>ram's horn</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>rhodium bracelet</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>ruby set in a platinum wristlet</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>shadowy, coiled cobra</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>silver and turquoise bracelet</name>
+    <ac>10</ac>
+  </item>
+  <item>
+    <name>smoldering wristguard of wrath</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>solid bracer of Cold Blue</name>
+    <ac>12</ac>
+  </item>
+  <item>
+    <name>spiked leather wristguard</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>steel bracer</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>straight cuffs</name>
+    <ac>2</ac>
+  </item>
+  <item>
+    <name>sundial</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>tarnished pearl bracelet</name>
+    <ac>11</ac>
+  </item>
+  <item>
+    <name>the studded wrist guard of the enchanter</name>
+    <ac>15</ac>
+  </item>
+  <item>
+    <name>tongue of the serpent</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>troll hide bracer</name>
+    <ac>5</ac>
+  </item>
+  <item>
+    <name>vambrace of blue dragonscales</name>
+    <ac>9</ac>
+  </item>
+  <item>
+    <name>white gold bracelet</name>
+    <ac>3</ac>
+  </item>
+  <item>
+    <name>wristlet of dissolution</name>
+    <ac>13</ac>
+  </item>
+  <item>
+    <name>wristlet of the hellborne</name>
+    <ac>12</ac>
+  </item>
+</items>
