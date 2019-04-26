@@ -1,9 +1,38 @@
 TRIGGERS
 	* eqDamaged
+		*  Purpose		:	Capture the name of the damaged equipment
+		*  Matches on	:	"^\((.*?) gets damaged\)$"
+		*  Group to		: 	Ungrouped
+		*  Func Calls	:	update_damaged_eq
+		*  Passes		:	(1)  The name of this trigger :  eqDamaged
+							(2)  The name of the item that got damaged as the captured wildcard
 	* eqRepair
+		*  Purpose		:	Capture the name of the equipment that needs to be repaired
+		*  Matches on	:	"^.* charges you (.*?) gold piece.* to repair (.*?)\.$"
+		*  Group to		: 	Ungrouped
+		*  Func Calls	:	update_damaged_eq
+		*  Passes		:	(1)  The name of this trigger :  eqRepair
+							(2)  The name of the item that got repaired as the captured wildcard	
 	* eqRepairNeeded
+		*  Purpose		:	Capture the name of the item that needs to be repaired
+		*  Matches on	:	"^.* tells you, 'It will cost (.*?) piece.* of gold to repair (.*?)\.\.\.'$"
+		*  Group to		: 	Ungrouped
+		*  Func Calls	:	update_damaged_eq
+		*  Passes		:	(1)  The name of this trigger :  eqRepairNeeded
+							(2)  The name of the item that needs to be repaired as the captured wildcard
 	* eqScrap
+		*  Purpose		:	Note the name of the item that was just destroyed!
+		*  Matches on	:	"^(.*) falls to the ground in scraps\!$"
+		*  Group to		: 	Ungrouped
+		*  Func Calls	:	update_damaged_eq
+		*  Passes		:	(1)  The name of this trigger :  eqScrap
+							(2)  The name of the item that was destroyed(!) as the captured wildcard	
 	* disableEqScanTriggers
+		*  Purpose		:	Signifies the end of the equipment list capture
+		*  Matches on	:	"^\(type \'garb\' for a list of all wear locations\)$"
+		*  Group to		: 	Ungrouped
+		*  Func Calls	:	update_damaged_eq
+		*  Passes		:	(1)  The name of this trigger :  disableEqScanTriggers
 	* light
 	* finger
 	* neck
