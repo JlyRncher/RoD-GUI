@@ -34,11 +34,47 @@ TRIGGERS
 		*  Func Calls	:	update_damaged_eq
 		*  Passes		:	(1)  The name of this trigger :  disableEqScanTriggers
 	* light
+		*  Purpose		:	Add the name of the "light" equipment to table
+		*  Matches on	:	"^\<used as light\>      (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  light
+							(2) The name of the "light" equipment
 	* finger
+		*  Purpose		:	Add the name of the "finger" equipment to table
+		*  Matches on	:	"^\<worn on finger\>     (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  finger
+							(2) The name of the "finger" equipment
 	* neck
+		*  Purpose		:	Add the name of the "neck" equipment to table
+		*  Matches on	:	"^\<worn around neck\>   (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  neck
+							(2) The name of the "neck" equipment
 	* body
+		*  Purpose		:	Add the name of the "body" equipment to table
+		*  Matches on	:	"^\<worn on body\>       (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  body
+							(2) The name of the "body" equipment
 	* head
+		*  Purpose		:	Add the name of the "head" equipment to table
+		*  Matches on	:	"^\<worn on head\>       (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  head
+							(2) The name of the "head" equipment
 	* legs
+		*  Purpose		:	Add the name of the "legs" equipment to table
+		*  Matches on	:	"^\<worn on legs\>       (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  legs
+							(2) The name of the "legs" equipment
 	* feet
 	* hands
 	* arms
