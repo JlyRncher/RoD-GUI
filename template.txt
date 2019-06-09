@@ -1,6 +1,0 @@
-		*  Purpose		:	Add the name of the "light" equipment to table
-		*  Matches on	:	"^\<used as light\>      (.*)$"
-		*  Group to		: 	eqautotrigger
-		*  Func Calls	:	set_eq
-		*  Passes		:	(1)	The name of this trigger :  light
-							(2) The name of the "light" equipment

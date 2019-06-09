@@ -3123,6 +3123,14 @@ function copy_table(t)
 	return t_copy
 end -- function
 
+function OnPluginMXPcloseTag (name)
+  local tagname, text = string.match (name, "(%a-),(.*)")
+
+	ColourNote("#00FF00", "black", tagname)
+	ColourNote("#00FF00", "black", text)
+
+end -- function
+
 		]]>
 	</script>
 

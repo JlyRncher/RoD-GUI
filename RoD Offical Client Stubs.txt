@@ -76,22 +76,124 @@ TRIGGERS
 		*  Passes		:	(1)	The name of this trigger :  legs
 							(2) The name of the "legs" equipment
 	* feet
+		*  Purpose		:	Add the name of the "feet" equipment to table
+		*  Matches on	:	"^\<worn on feet\>       (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  feet
+							(2) The name of the "feet" equipment
 	* hands
+		*  Purpose		:	Add the name of the "hands" equipment to table
+		*  Matches on	:	"^\<worn on hands\>      (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  hands
+							(2) The name of the "hands" equipment
 	* arms
+		*  Purpose		:	Add the name of the "arms" equipment to table
+		*  Matches on	:	"^\<worn on arms\>       (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  arms
+							(2) The name of the "arms" equipment
 	* shield
+		*  Purpose		:	Add the name of the "shield" equipment to table
+		*  Matches on	:	"^\<worn as shield\>     (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  shield
+							(2) The name of the "shield" equipment
 	* about_body
+		*  Purpose		:	Add the name of the "about body" equipment to table
+		*  Matches on	:	"^\<worn about body\>    (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  about_body
+							(2) The name of the "about body" equipment
 	* waist
+		*  Purpose		:	Add the name of the "waist" equipment to table
+		*  Matches on	:	"^\<worn about waist\>   (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  waist
+							(2) The name of the "waist" equipment
 	* wrist
+		*  Purpose		:	Add the name of the "wrist" equipment to table
+		*  Matches on	:	"^\<worn around wrist\>  (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  wrist
+							(2) The name of the "wrist" equipment
 	* wield
+		*  Purpose		:	Add the name of the "wielded" equipment to table
+		*  Matches on	:	"^\<wielded\>            (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  wield
+							(2) The name of the "wielded" equipment
 	* dual_wield
+		*  Purpose		:	Add the name of the "dual wielded" equipment to table
+		*  Matches on	:	"^\<dual wielded\>       (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  dual_wield
+							(2) The name of the "dual wielded" equipment
 	* ears
+		*  Purpose		:	Add the name of the "ears" equipment to table
+		*  Matches on	:	"^\<worn on ears\>       (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  ears
+							(2) The name of the "ears" equipment
 	* eyes
+		*  Purpose		:	Add the name of the "eyes" equipment to table
+		*  Matches on	:	"^\<worn on eyes\>       (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  eyes
+							(2) The name of the "eyes" equipment
 	* held
+		*  Purpose		:	Add the name of the "held" equipment to table
+		*  Matches on	:	"^\<held\>               (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  held
+							(2) The name of the "held" equipment
 	* missile_wielded
+		*  Purpose		:	Add the name of the "missile wielded" equipment to table
+		*  Matches on	:	"^\<missile wielded\>    (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  missile_wielded
+							(2) The name of the "missile wielded" equipment
 	* back
+		*  Purpose		:	Add the name of the "back" equipment to table
+		*  Matches on	:	"^\<worn on back\>       (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  back
+							(2) The name of the "back" equipment
 	* face
+		*  Purpose		:	Add the name of the "face" equipment to table
+		*  Matches on	:	"^\<worn over face\>     (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  face
+							(2) The name of the "face" equipment
 	* ankle
+		*  Purpose		:	Add the name of the "ankle" equipment to table
+		*  Matches on	:	"^\<worn around ankle\>  (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  ankle
+							(2) The name of the "ankle" equipment
 	* lance
+		*  Purpose		:	Add the name of the "lance" equipment to table
+		*  Matches on	:	"^\<wielded as lance\>   (.*)$"
+		*  Group to		: 	eqautotrigger
+		*  Func Calls	:	set_eq
+		*  Passes		:	(1)	The name of this trigger :  lance
+							(2) The name of the "lance" equipment
 	* init
 	* config
 
