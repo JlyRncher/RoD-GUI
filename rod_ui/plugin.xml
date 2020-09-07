@@ -570,6 +570,11 @@ local bar_font_fb = "Arial"
 local default_font = "Georgia" 		-- default font used for text in the ui
 local default_font_fb = "Arial"
 
+-- Unofficial mod variables
+local itemDatabaseName = "items"
+local mappingDatabaseName = "map"
+-- END Unofficial mod variables
+
 -- table containing all "important" spell affects
 local i_affects = {"sanctuary",
 	"greater sanctuary",
