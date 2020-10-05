@@ -570,10 +570,6 @@ local bar_font_fb = "Arial"
 local default_font = "Georgia" 		-- default font used for text in the ui
 local default_font_fb = "Arial"
 
--- Unofficial mod variables
-local itemDatabaseName = "items"
-local mappingDatabaseName = "map"
--- END Unofficial mod variables
 
 -- table containing all "important" spell affects
 local i_affects = {"sanctuary",
@@ -634,6 +630,10 @@ end -- if
 
 -- plugin hook
 function OnPluginDisconnect()
+	-- Close Added Databases .J.
+	DatabaseClose ("item")
+	DatabaseClose ("map")
+
 	DiscardQueue()	-- Forget about any commands we were processing (avoid sitebans!)
 	-- reset the scroll positions
 	affect_scroll = 0
@@ -738,10 +738,15 @@ function OnPluginInstall()
 	SetOption("enable_timers", true)	-- we need timers to be enabled
 	SetOption("auto_repeat", true)		-- leave the last command typed on the input line
 	ColourNote("#00ff00", "", "[GUI] ", "white", "", "Plugin installed. Reconnect to the world.")
+		
 end -- function
 
 -- plugin hook
 function OnPluginConnect()
+	--  Added Databases .J.
+	DatabaseOpen ("map", asset_path .. "mapdb.sqlite", 6)
+	DatabaseOpen ("item", asset_path .. "itemdb.sqlite", 6)
+
 	check_dimensions(GetInfo(281), GetInfo(280))
 	create_layout()
 end -- function
