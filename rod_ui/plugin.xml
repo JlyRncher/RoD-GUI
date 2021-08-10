@@ -30,6 +30,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	   version="1.0"
 	   >
 	</plugin>
+	
+	<!-- Timer Mods by Jlyrncher -->
+	
+	<timers>
+		<timer 
+		script="Combat_Timer" 
+		enabled="y" 
+		second="4.00" 
+		offset_second="0.00"    
+		send_to="12"
+		>
+		<send>foo</send>
+		</timer>
+	</timers>
 
 	<!--  Triggers  -->
 
@@ -540,6 +554,13 @@ local area_modifier = 0			-- used when player is config +NEWBIE to modify area l
 local level
 local areas_loaded = false
 
+-- Variable Mods by Jlyrncher
+local special_attack = "strike"	-- used to hold the special attack name for the combat timer
+local in_combat = false 		-- are we in combat?
+local colourLightGray = ColourNameToRGB("#d3d3d3") -- fix a bug in the stock plugin
+
+-- End of Mod Variables by Jlyrncher
+
 local info_windows = {score_win, affect_win, area_win, eq_win, xp_win} -- table containing all dynamically loaded windows
 local current_window -- the current window set showing in the dynamic pane
 
@@ -569,7 +590,6 @@ local bar_font = "Verdana" 			-- font for gauges and other non-stylized items
 local bar_font_fb = "Arial"
 local default_font = "Georgia" 		-- default font used for text in the ui
 local default_font_fb = "Arial"
-
 
 -- table containing all "important" spell affects
 local i_affects = {"sanctuary",
@@ -630,10 +650,6 @@ end -- if
 
 -- plugin hook
 function OnPluginDisconnect()
-	-- Close Added Databases .J.
-	DatabaseClose ("item")
-	DatabaseClose ("map")
-
 	DiscardQueue()	-- Forget about any commands we were processing (avoid sitebans!)
 	-- reset the scroll positions
 	affect_scroll = 0
@@ -738,15 +754,10 @@ function OnPluginInstall()
 	SetOption("enable_timers", true)	-- we need timers to be enabled
 	SetOption("auto_repeat", true)		-- leave the last command typed on the input line
 	ColourNote("#00ff00", "", "[GUI] ", "white", "", "Plugin installed. Reconnect to the world.")
-		
 end -- function
 
 -- plugin hook
 function OnPluginConnect()
-	--  Added Databases .J.
-	DatabaseOpen ("map", asset_path .. "mapdb.sqlite", 6)
-	DatabaseOpen ("item", asset_path .. "itemdb.sqlite", 6)
-
 	check_dimensions(GetInfo(281), GetInfo(280))
 	create_layout()
 end -- function
@@ -1595,6 +1606,7 @@ function draw_energy_bars()
 	if opponent_name ~= "" and opponent_name ~= nil then
 		local opponent_health = msdp["OPPONENT_HEALTH"]
 		type = "hp"
+		in_combat = true		-- mod by JlyRncher used by timer function
 		WindowRectOp(logo_win, miniwin.rect_fill, 0, 0, 0, 0, colourBlack)
 		WindowGradient (opponent_win, 0, 0, 0, 0, colourBlack, colourBlack, 1)
 		draw_energy_bar(type, colourWhite, colourWhite, opponent_win, opponent_health, 100, opponent_width, 35, opponent_name)
@@ -1602,6 +1614,7 @@ function draw_energy_bars()
 	else
 		WindowGradient(opponent_win, 0, 0, 0, 0, colourBlack, colourBlack, 1)
 		check(WindowDrawImage(logo_win, "rod_logo_full", 0, 0, 0, 0, miniwin.image_transparent_copy))
+		in_combat = false		-- mod by JlyRncher used by timer function
 	end -- if
 end -- draw_energy_bars
 
@@ -2335,7 +2348,7 @@ function draw_eq_window()
 			local width
 			if tonumber(v.max_hits) ~= nil then
 				if tonumber(v.max_hits) - tonumber(v.hits) <= 0 then
-					width = outlined_text(colourDarkGray, eq_win, trunc(v.name, 25), 8, 65, y_offset, 0)
+					width = outlined_text(colourLightGray, eq_win, trunc(v.name, 25), 8, 65, y_offset, 0)
 				elseif tonumber(v.max_hits) - tonumber(v.hits) <= 3 and v.eq_type ~= "light" then
 					width = outlined_text(colourRed, eq_win, trunc(v.name, 25), 8, 65, y_offset, 0)
 				else
@@ -3132,7 +3145,22 @@ function copy_table(t)
 	return t_copy
 end -- function
 
+
+-- added functions by JlyRncher
+-- 
+
+
+-- if in combat send the saved attack every so often function
+function Combat_Timer(foo)
+	if in_combat = true then
+		Execute (special_attack)
+	end -- if
+end -- function
+
+
+-- end of added functions
 		]]>
 	</script>
 
 </muclient>
+
