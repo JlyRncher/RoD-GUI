@@ -1,0 +1,463 @@
+<!--
+Copyright 2011, 2012 Realms of Despair
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Triggers start line		36
+Aliases start line.		336
+Script start line..		446
+
+-->
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE muclient>
+<muclient>
+	<plugin
+	   name="RoD_UI"
+	   author="Sepharoth"
+	   id="301c66d8b723e84413fcaa7c"
+	   language="Lua"
+	   purpose="User interface to Realms of Despair."
+	   save_state="y"
+	   date_written="2011-10-27 13:00:00"
+	   requires="4.73"
+	   version="1.0"
+	   >
+	</plugin>
+
+	<!--  Triggers  -->
+
+	<triggers>
+		<trigger
+		enabled="y"
+		match="^\((.*?) gets damaged\)$"
+		name="eqDamaged"
+		regexp="y"
+		script="update_damaged_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="y"
+		match="^.* charges you (.*?) gold piece.* to repair (.*?)\.$"
+		name="eqRepair"
+		regexp="y"
+		script="update_damaged_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="y"
+		match="^.* tells you, 'It will cost (.*?) piece.* of gold to repair (.*?)\.\.\.'$"
+		name="eqRepairNeeded"
+		regexp="y"
+		script="update_damaged_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="y"
+		match="^(.*) falls to the ground in scraps\!$"
+		name="eqScrap"
+		regexp="y"
+		script="update_damaged_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="y"
+		match="^\(type \'garb\' for a list of all wear locations\)$"
+		name="disableEqScanTriggers"
+		regexp="y"
+		script="update_damaged_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<used as light\>      (.*)$"
+		name="light"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<worn on finger\>     (.*)$"
+		name="finger"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<worn around neck\>   (.*)$"
+		name="neck"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<worn on body\>       (.*)$"
+		name="body"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<worn on head\>       (.*)$"
+		name="head"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<worn on legs\>       (.*)$"
+		name="legs"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<worn on feet\>       (.*)$"
+		name="feet"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<worn on hands\>      (.*)$"
+		name="hands"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<worn on arms\>       (.*)$"
+		name="arms"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<worn as shield\>     (.*)$"
+		name="shield"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<worn about body\>    (.*)$"
+		name="about_body"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<worn about waist\>   (.*)$"
+		name="waist"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<worn around wrist\>  (.*)$"
+		name="wrist"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<wielded\>            (.*)$"
+		name="wield"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<dual wielded\>       (.*)$"
+		name="dual_wield"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<worn on ears\>       (.*)$"
+		name="ears"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<worn on eyes\>       (.*)$"
+		name="eyes"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<held\>               (.*)$"
+		name="held"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<missile wielded\>    (.*)$"
+		name="missile_wielded"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<worn on back\>       (.*)$"
+		name="back"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<worn over face\>     (.*)$"
+		name="face"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<worn around ankle\>  (.*)$"
+		name="ankle"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="n"
+		match="^\<wielded as lance\>   (.*)$"
+		name="lance"
+		group="eqautotrigger"
+		regexp="y"
+		script="set_eq"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="y"
+		match="^Welcome to Realms of Despair, .*?\.\.\.$"
+		name="init"
+		group="init"
+		regexp="y"
+		script="init_script"
+		sequence="100"
+		>
+		</trigger>
+		<trigger
+		enabled="y"
+		match="Configurations \(use \'config \+\/\- \<keyword\>\' to toggle, see \'help config\'\)"
+		name="config"
+		regexp="y"
+		script="append_config"
+		sequence="100"
+		>
+		</trigger>
+	</triggers>
+
+	<!-- Aliases -->
+
+	<aliases>
+		<alias
+		script="do_resize"
+		match="^ui.resize$"
+		enabled="y"
+		name="resizeUI"
+		regexp="y"
+		omit_from_output="y"
+		send_to="12"
+		sequence="100"
+		>
+		</alias>
+		<alias
+		script="set_eq"
+		match="^ui.eqscan$"
+		enabled="y"
+		name="doEqScan"
+		regexp="y"
+		omit_from_output="y"
+		send_to="12"
+		sequence="100"
+		>
+		</alias>
+		<alias
+		script="delete_eq_vars"
+		match="^ui.eqclear$"
+		enabled="y"
+		name="clearEqVariables"
+		regexp="y"
+		omit_from_output="y"
+		send_to="12"
+		sequence="100"
+		>
+		</alias>
+		<alias
+		script="set_eq_max_ac"
+		match="^ui.eqac (.*) ([0-9]+)$"
+		enabled="y"
+		name="setEqMaxAc"
+		regexp="y"
+		omit_from_output="y"
+		send_to="12"
+		sequence="100"
+		>
+		</alias>
+		<alias
+		script="clear_console"
+		match="^ui.cls$"
+		enabled="y"
+		name="clearConsole"
+		regexp="y"
+		omit_from_output="y"
+		send_to="12"
+		sequence="100"
+		>
+		</alias>
+		<alias
+		script="set_eq"
+		match="^config ([\+\-])eqscan$"
+		enabled="y"
+		name="toggleEqAutoScan"
+		regexp="y"
+		omit_from_output="y"
+		send_to="12"
+		sequence="100"
+		>
+		</alias>
+		<alias
+		script="enable_console"
+		match="^config ([\+\-])console$"
+		enabled="y"
+		name="toggleConsole"
+		regexp="y"
+		omit_from_output="y"
+		send_to="12"
+		sequence="100"
+		>
+		</alias>
+		<alias
+		script="toggle_warnings"
+		match="^config ([\+\-])warnings$"
+		enabled="y"
+		name="toggleWarnings"
+		regexp="y"
+		omit_from_output="y"
+		send_to="12"
+		sequence="100"
+		>
+		</alias>
+		<alias
+		script="toggle_newbie"
+		match="^config ([\+\-])newbie$"
+		enabled="y"
+		name="toggleNewbie"
+		regexp="y"
+		omit_from_output="y"
+		send_to="12"
+		sequence="100"
+		>
+		</alias>
+		<alias
+		script="note_dialog"
+		match="^ui.help$"
+		enabled="y"
+		name="help"
+		regexp="y"
+		omit_from_output="y"
+		send_to="12"
+		sequence="100"
+		>
+		</alias>
+	</aliases>
+ 
+	<!--  Get our standard constants -->
+
+	<include name="constants.lua"/>
+
+	<script>
+		<![CDATA[
+		dofile (GetPluginInfo (GetPluginID (), 20) .. "plugin.lua")
+		]]>
+	</script>
+
+</muclient>

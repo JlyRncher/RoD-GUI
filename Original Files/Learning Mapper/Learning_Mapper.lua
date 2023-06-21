@@ -91,7 +91,7 @@ room_name_styles = { }
 
 UNKNOWN_DUPLICATE_ROOM = string.rep ("F", 25)  -- dummy UID
 
-DEBUGGING = true
+DEBUGGING = false
 
 function set_last_direction_moved (where)
   last_direction_moved = where
@@ -468,7 +468,7 @@ default_config = {
   ACTIVATE_DESCRIPTION_AFTER_ROOM_NAME = false,-- descriptions are activated *after* a room name line
   BLANK_LINE_TERMINATES_LINE_TYPE = false,     -- if true, a blank line terminates the previous line type
   ADD_NEWLINE_TO_PROMPT = false,               -- if true, attempts to add a newline to a prompt at the end of a packet
-  SHOW_LEARNING_WINDOW = true,                 -- if true, show the learning status and training windows on startup
+  SHOW_LEARNING_WINDOW = false,                 -- if true, show the learning status and training windows on startup
   EXITS_ON_ROOM_NAME = false,                  -- if true, exits are listed on the room name line (eg. Starter Inventory and Shops [E, U])
   INCLUDE_EXITS_IN_HASH = true,                -- if true, exits are included in the description hash (UID)
   INCLUDE_ROOM_NAME_IN_HASH = false,           -- if true, the room name is included in the description hash (UID)
@@ -747,15 +747,16 @@ function OnPluginWorldOutputResized ()
   font_size = GetOption "output_font_height"
 
   local output_width  = GetInfo (240)  -- average width of pixels per character
-  local wrap_column   = GetOption ('wrap_column')
+  local wrap_column   = GetOption ('wrap_column') + 8
   local pixel_offset  = GetOption ('pixel_offset')
+  local left_edge     = GetInfo (292) - (output_width * 35) - 275
 
   -- make window so I can grab the font info
   WindowCreate (win,
-                (output_width * wrap_column) + pixel_offset + 10, -- left
-                0,  -- top
-                400, -- width
-                GetInfo (263),   -- world window client height
+                left_edge, -- left
+                82 + GetInfo (241),  -- top
+                35 * output_width,   -- width
+                GetInfo (293) - 135,   -- world window client height
                 miniwin.pos_top_left,   -- position (irrelevant)
                 miniwin.create_absolute_location,   -- flags
                 ColourNameToRGB (config.STATUS_BACKGROUND_COLOUR))   -- background colour
@@ -1227,8 +1228,8 @@ function OnPluginInstall ()
 
   end -- for
 
-  WindowShow (learn_window, config.SHOW_LEARNING_WINDOW)
-  WindowShow (win, config.SHOW_LEARNING_WINDOW)
+  -- WindowShow (learn_window, config.SHOW_LEARNING_WINDOW)
+  -- WindowShow (win, config.SHOW_LEARNING_WINDOW)
 
   time_last_saved = os.time ()
   rooms_added = 0
@@ -1893,6 +1894,7 @@ function OnPluginConnect ()
   override_contents = { }
   line_is_not_line_type = { }
   set_current_room (nil)
+  mapper.hide ()
 end -- OnPluginConnect
 
 -- -----------------------------------------------------------------
