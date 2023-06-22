@@ -1,3 +1,4 @@
+
 -- RoD_UI - Realms of Despair User Interface
 -- Author: Sepharoth
 -- Version: 1.0
@@ -32,9 +33,6 @@ local area_win = "area_window_" .. GetPluginID()
 local eq_win = "eq_window_" .. GetPluginID()
 local minimap_win = "minimap_window_" .. GetPluginID()
 local console_win = "console_window_" .. GetPluginID()
-local chat_win = "chat_window_" .. GetPluginID()
-local aux_win = "aux_window_" .. GetPluginID()
-local macro_win = "macro_win_" .. GetPluginID()
 
 -- setup buttons
 local score_button = "score_button_" .. GetPluginID()
@@ -51,7 +49,7 @@ local bar_height				-- for health/mana/blood/movement/xp/opp.
 local top_panel_height = 80		-- height of the top panel containing player bars
 local left_panel_width = 70		-- width of the left panel containing buttons
 local right_panel_width = 275 	-- width of the panels on the right side of the screen
-local bottom_panel_height = 35	-- height of the panel containing the opponent bar
+local bottom_panel_height = 35	-- width of the panel containing the opponent bar
 local logo_width = 485			-- width in pixels of the logo image
 local opponent_width = logo_width-125	-- width of the opponent health bar
 local min_width = 945 			-- 70 + 600 + 275
@@ -488,8 +486,7 @@ function create_layout()
 							 150,        	-- depth
 							 12,         	-- center it (ignored anyway) 
 							 6, 			-- draw underneath (1) + absolute location (2)
-							 colourBlack))	-- background colour
-		
+							 colourBlack))	-- background colour	
 
 	-- setup character status bars
 	local next_bar = left_panel_width	-- where to position the beginning of the bar
@@ -1876,7 +1873,7 @@ function draw_eq_window()
 			local width
 			if tonumber(v.max_hits) ~= nil then
 				if tonumber(v.max_hits) - tonumber(v.hits) <= 0 then
-					width = outlined_text(colourGold, eq_win, trunc(v.name, 25), 8, 65, y_offset, 0)
+					width = outlined_text(colourLightGray, eq_win, trunc(v.name, 25), 8, 65, y_offset, 0)
 				elseif tonumber(v.max_hits) - tonumber(v.hits) <= 3 and v.eq_type ~= "light" then
 					width = outlined_text(colourRed, eq_win, trunc(v.name, 25), 8, 65, y_offset, 0)
 				else
