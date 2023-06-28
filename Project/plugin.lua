@@ -33,6 +33,8 @@ local area_win = "area_window_" .. GetPluginID()
 local eq_win = "eq_window_" .. GetPluginID()
 local minimap_win = "minimap_window_" .. GetPluginID()
 local console_win = "console_window_" .. GetPluginID()
+local chat_win = "chat_window_" .. GetPluginID()        -- JlyRncher
+local mapper_win = "mapper_window_" .. GetPluginID()	-- JlyRncher
 
 -- setup buttons
 local score_button = "score_button_" .. GetPluginID()
@@ -40,6 +42,8 @@ local affect_button = "affect_button_" .. GetPluginID()
 local area_button = "area_button_" .. GetPluginID()
 local repair_button = "repair_button_" .. GetPluginID()
 local cancel_button = "cancel_button_" .. GetPluginID()
+local mapper_button = "mapper_button_" .. GetPluginID()			-- JlyRncher
+local equipment_button = "equipment_button_" .. GetPluginID()	-- JlyRncher
 
 -- dimensions
 local screen_width				-- GetInfo(281)
@@ -1873,7 +1877,7 @@ function draw_eq_window()
 			local width
 			if tonumber(v.max_hits) ~= nil then
 				if tonumber(v.max_hits) - tonumber(v.hits) <= 0 then
-					width = outlined_text(colourLightGray, eq_win, trunc(v.name, 25), 8, 65, y_offset, 0)
+					width = outlined_text(colourDarkGray, eq_win, trunc(v.name, 25), 8, 65, y_offset, 0)
 				elseif tonumber(v.max_hits) - tonumber(v.hits) <= 3 and v.eq_type ~= "light" then
 					width = outlined_text(colourRed, eq_win, trunc(v.name, 25), 8, 65, y_offset, 0)
 				else
