@@ -185,7 +185,7 @@ function OnPluginDisconnect()
 	WindowShow(cancel_button, false)
 	cancel_showing = false
 	areas_loaded = false
-	WindowDrawImage(logo_win, "rod_logo_full", 0, 0, 0, 0, miniwin.image_transparent_copy)
+	check(WindowDrawImage(logo_win, "rod_logo_full", 0, 0, 0, 0, miniwin.image_transparent_copy))
 	
 	-- dump equipment max ac values into variables
 	-- look into serialize instead?
@@ -1872,7 +1872,7 @@ function draw_eq_window()
 			local width
 			if tonumber(v.max_hits) ~= nil then
 				if tonumber(v.max_hits) - tonumber(v.hits) <= 0 then
-					width = outlined_text(colourDarkGray, eq_win, trunc(v.name, 25), 8, 65, y_offset, 0) -- JlyRncher colourLiteGray was not defined
+					width = outlined_text(colourLightGray, eq_win, trunc(v.name, 25), 8, 65, y_offset, 0)
 				elseif tonumber(v.max_hits) - tonumber(v.hits) <= 3 and v.eq_type ~= "light" then
 					width = outlined_text(colourRed, eq_win, trunc(v.name, 25), 8, 65, y_offset, 0)
 				else
