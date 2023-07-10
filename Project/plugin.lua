@@ -4,7 +4,15 @@
 --
 -- See the "Acknowledgements" section of the README file for credits.
 -- Edited in Notepad++ using tabwidth=4
+--
+-- Code updates Author: JlyRncher
+-- Edited LUA code in Geany and XML code in Notepad++
+--
+
 require "tprint"
+
+local DEBUG = false		-- JlyRncher .. DEBUG switch for troubleshooting
+
 -- msdp stuff, don't touch!
 local using_msdp = false
 local MSDP = 69
@@ -16,7 +24,7 @@ local MSP = 90
 -- setup miniwindows
 local background_win = "background_window_" .. GetPluginID()
 local top_panel = "top_panel_" .. GetPluginID()
-local logo_win = "zlogo_window_" .. GetPluginID()	-- starts with z to trick drawing order
+local logo_win = "zlogo_window_" .. GetPluginID()	   -- starts with z to trick drawing order
 local top_right_panel = "top_right_panel_" .. GetPluginID()
 local left_panel = "left_panel_" .. GetPluginID()
 local info_panel = "info_panel_" .. GetPluginID()
@@ -32,6 +40,7 @@ local area_win = "area_window_" .. GetPluginID()
 local eq_win = "eq_window_" .. GetPluginID()
 local minimap_win = "minimap_window_" .. GetPluginID()
 local console_win = "console_window_" .. GetPluginID()
+local chat_panel = "chat_panel_" .. GetPluginID()        -- JlyRncher
 
 -- setup buttons
 local score_button = "score_button_" .. GetPluginID()
@@ -48,11 +57,13 @@ local bar_height				-- for health/mana/blood/movement/xp/opp.
 local top_panel_height = 80		-- height of the top panel containing player bars
 local left_panel_width = 70		-- width of the left panel containing buttons
 local right_panel_width = 275 	-- width of the panels on the right side of the screen
+local top_right_height = 210	-- JlyRncher .. height of the mini-map panel
 local bottom_panel_height = 35	-- width of the panel containing the opponent bar
 local logo_width = 485			-- width in pixels of the logo image
 local opponent_width = logo_width-125	-- width of the opponent health bar
 local min_width = 945 			-- 70 + 600 + 275
 local min_height = 485 			-- 80 + 375 + 35
+local chat_height = top_right_height-top_panel_height	-- JlyRncher .. height of chat panel
 
 -- misc. variables
 local version_ok = false		-- is the client version ok?
@@ -408,15 +419,15 @@ function create_layout()
 		bottom = top
 	end -- if
 
-	TextRectangle(left+15,  		-- left
-					top+15,   		-- top
-					right,			-- width
-					bottom-15,  	-- height
-					0,  			-- BorderOffset, 
-					colourWhite,   	-- BorderColour, 
-					0,  			-- BorderWidth, 
-					colourWhite,  	-- OutsideFillColour, 
-					1) 				-- OutsideFillStyle (fine hatch)
+	TextRectangle(left+15,  			-- left
+					top+chat_height,	-- top  .. JlyRncher
+					right,				-- width
+					bottom-15,  		-- height
+					0,  				-- BorderOffset, 
+					colourWhite,   		-- BorderColour, 
+					0,  				-- BorderWidth, 
+					colourWhite,  		-- OutsideFillColour, 
+					1) 					-- OutsideFillStyle (fine hatch)
 	-- enforce the 90 column wrap
 	-- we can't do anything about the user changing these options in the client itself
 	SetOption("auto_wrap_window_width", false)
@@ -485,7 +496,16 @@ function create_layout()
 							 150,        	-- depth
 							 12,         	-- center it (ignored anyway) 
 							 6, 			-- draw underneath (1) + absolute location (2)
-							 colourBlack))	-- background colour	
+							 colourBlack))	-- background colour
+							 
+	check(WindowCreate(chat_panel,			-- window ID  .. JlyRncher .. Our new chat window
+						left,		    	-- left
+						top_panel_height,	-- top
+						right-left,			-- width
+						chat_height,		-- depth .. JlyRncher
+						12,					-- center it (ignored(
+						6,					-- draw underneath and absolute
+						colourBlack))		-- background colour
 
 	-- setup character status bars
 	local next_bar = left_panel_width	-- where to position the beginning of the bar
@@ -852,6 +872,8 @@ function create_layout()
   		check(WindowLoadImage(bottom_panel, "ui_tile", asset_path .. "background//ui_tile.png"))
 		check(WindowLoadImage(bottom_panel, "border", asset_path .. "border//border_bottom.png"))
 		check(WindowLoadImage(bottom_panel, "separator", asset_path .. "border//separator.png"))
+		-- JlyRncher .. chat panel
+		check(WindowLoadImage(chat_panel, "border", asset_path .. "border//border_bottom.png"))
 		-- bars
 		-- health
 		check(WindowLoadImage(health_win, "health_100", asset_path .. "bars//health//health_100.png"))
@@ -976,6 +998,7 @@ function create_layout()
 	check(WindowDrawImage(repair_button, "button", 0, 0, 0, 0, miniwin.image_copy))
 	check(WindowDrawImage(cancel_button, "button", 0, 0, 0, 0, miniwin.image_copy))
 	check(WindowDrawImage(affect_win, "title_bar", 0, 0, 275, 25, miniwin.image_copy))
+	check(WindowDrawImage(chat_panel, "border", 0, chat_height-10, 0, 0, miniwin.image_stretch)) -- JlyRncher
 	-- draw panes that aren't done so automatically through subnegotiation
 	draw_area_list()
 	draw_eq_window()
@@ -997,6 +1020,7 @@ function create_layout()
 	WindowShow(score_button, true)
 	WindowShow(area_button, true)
 	WindowShow(repair_button, true)
+	WindowShow(chat_panel, true)	-- JlyRncher
 	
 	if current_window ~= nil then
 		WindowShow(current_window, true) -- redisplay the current window
@@ -1872,7 +1896,7 @@ function draw_eq_window()
 			local width
 			if tonumber(v.max_hits) ~= nil then
 				if tonumber(v.max_hits) - tonumber(v.hits) <= 0 then
-					width = outlined_text(colourDarkGray, eq_win, trunc(v.name, 25), 8, 65, y_offset, 0) -- JlyRncher colourLiteGray was not defined
+					width = outlined_text(colourDarkGray, eq_win, trunc(v.name, 25), 8, 65, y_offset, 0) -- JlyRncher .. colourLightGray was not defined
 				elseif tonumber(v.max_hits) - tonumber(v.hits) <= 3 and v.eq_type ~= "light" then
 					width = outlined_text(colourRed, eq_win, trunc(v.name, 25), 8, 65, y_offset, 0)
 				else
