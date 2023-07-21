@@ -41,6 +41,7 @@ local eq_win = "eq_window_" .. GetPluginID()
 local minimap_win = "minimap_window_" .. GetPluginID()
 local console_win = "console_window_" .. GetPluginID()
 local chat_panel = "chat_panel_" .. GetPluginID()        -- JlyRncher
+local bigmap_panel = "bigmap_panel" .. GetPluginID()        -- JlyRncher
 
 -- setup buttons
 local score_button = "score_button_" .. GetPluginID()
@@ -54,6 +55,7 @@ local screen_width				-- GetInfo(281)
 local screen_height				-- GetInfo(280)
 local bar_width					-- for health/mana/blood/movement/xp/opp.
 local bar_height				-- for health/mana/blood/movement/xp/opp.
+local rectangle_width = GetInfo(240)*90	--	JlyRncher .. Width of our Text Rectangle
 local top_panel_height = 80		-- height of the top panel containing player bars
 local left_panel_width = 70		-- width of the left panel containing buttons
 local right_panel_width = 275 	-- width of the panels on the right side of the screen
@@ -63,7 +65,7 @@ local logo_width = 485			-- width in pixels of the logo image
 local opponent_width = logo_width-125	-- width of the opponent health bar
 local min_width = 945 			-- 70 + 600 + 275
 local min_height = 485 			-- 80 + 375 + 35
-local chat_height = top_right_height-top_panel_height	-- JlyRncher .. height of chat panel
+local chat_height = top_right_height-top_panel_height		-- JlyRncher .. height of chat panel
 
 -- misc. variables
 local version_ok = false		-- is the client version ok?
@@ -421,7 +423,7 @@ function create_layout()
 
 	TextRectangle(left+15,  			-- left
 					top+chat_height,	-- top  .. JlyRncher
-					right,				-- width
+					rectangle_width,	-- width .. JlyRncher
 					bottom-15,  		-- height
 					0,  				-- BorderOffset, 
 					colourWhite,   		-- BorderColour, 
@@ -503,9 +505,22 @@ function create_layout()
 						top_panel_height,	-- top
 						right-left,			-- width
 						chat_height,		-- depth .. JlyRncher
-						12,					-- center it (ignored(
+						12,					-- center it (ignored)
 						6,					-- draw underneath and absolute
 						colourBlack))		-- background colour
+						
+	local bigmap_left = ((((right - left_panel_width - 20)/3)*2) + 10) + left	--	JlyRncher .. figure out left coord of bigmap panel
+	
+	check(WindowCreate(bigmap_panel,							-- window ID .. JlyRncher .. Our new big map window
+						bigmap_left,							-- left
+						top_panel_height + chat_height,			-- top
+						right - bigmap_left,					-- width
+						screen_height - bottom_panel_height - chat_height - top_panel_height,	-- depth
+						12,										-- center it (ignored)
+						6,										-- draw underneath and absolute
+						colourBlack))							-- background colour
+						
+
 
 	-- setup character status bars
 	local next_bar = left_panel_width	-- where to position the beginning of the bar
@@ -533,6 +548,8 @@ function create_layout()
 							5,            				-- center it (ignored anyway) 
 							6,             				-- draw underneath (1) + absolute location (2) + transparent (4)
 							colourBlack))  -- background colour	
+							
+	
 	
 	next_bar = next_bar + bar_width + outer_padding
 	--make a miniwindow for movement
@@ -874,6 +891,9 @@ function create_layout()
 		check(WindowLoadImage(bottom_panel, "separator", asset_path .. "border//separator.png"))
 		-- JlyRncher .. chat panel
 		check(WindowLoadImage(chat_panel, "border", asset_path .. "border//border_bottom.png"))
+		-- JlyRncher .. big map panel
+		check(WindowLoadImage(bigmap_panel, "border", asset_path .. "border//border_right.png"))
+
 		-- bars
 		-- health
 		check(WindowLoadImage(health_win, "health_100", asset_path .. "bars//health//health_100.png"))
@@ -999,6 +1019,8 @@ function create_layout()
 	check(WindowDrawImage(cancel_button, "button", 0, 0, 0, 0, miniwin.image_copy))
 	check(WindowDrawImage(affect_win, "title_bar", 0, 0, 275, 25, miniwin.image_copy))
 	check(WindowDrawImage(chat_panel, "border", 0, chat_height-10, 0, 0, miniwin.image_stretch)) -- JlyRncher
+	check(WindowDrawImage(bigmap_panel,"border",0,0,10,0, miniwin.image_stretch)) -- JlyRncher
+
 	-- draw panes that aren't done so automatically through subnegotiation
 	draw_area_list()
 	draw_eq_window()
@@ -1021,6 +1043,8 @@ function create_layout()
 	WindowShow(area_button, true)
 	WindowShow(repair_button, true)
 	WindowShow(chat_panel, true)	-- JlyRncher
+	WindowShow(bigmap_panel, true)	-- JlyRncher
+
 	
 	if current_window ~= nil then
 		WindowShow(current_window, true) -- redisplay the current window
