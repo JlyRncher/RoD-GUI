@@ -55,17 +55,17 @@ local screen_width				-- GetInfo(281)
 local screen_height				-- GetInfo(280)
 local bar_width					-- for health/mana/blood/movement/xp/opp.
 local bar_height				-- for health/mana/blood/movement/xp/opp.
-local rectangle_width = GetInfo(240)*90	--	JlyRncher .. Width of our Text Rectangle
 local top_panel_height = 80		-- height of the top panel containing player bars
 local left_panel_width = 70		-- width of the left panel containing buttons
 local right_panel_width = 275 	-- width of the panels on the right side of the screen
-local top_right_height = 210	-- JlyRncher .. height of the mini-map panel
 local bottom_panel_height = 35	-- width of the panel containing the opponent bar
 local logo_width = 485			-- width in pixels of the logo image
 local opponent_width = logo_width-125	-- width of the opponent health bar
 local min_width = 945 			-- 70 + 600 + 275
 local min_height = 485 			-- 80 + 375 + 35
+local top_right_height = 210	-- JlyRncher .. height of the mini-map panel
 local chat_height = top_right_height-top_panel_height		-- JlyRncher .. height of chat panel
+
 
 -- misc. variables
 local version_ok = false		-- is the client version ok?
@@ -99,6 +99,7 @@ local alt_affects_view = false	-- is the alternate affects view on?
 local area_modifier = 0			-- used when player is config +NEWBIE to modify area list
 local level
 local areas_loaded = false
+
 
 local info_windows = {score_win, affect_win, area_win, eq_win, xp_win} -- table containing all dynamically loaded windows
 local current_window -- the current window set showing in the dynamic pane
@@ -352,6 +353,7 @@ function OnPluginTelnetSubnegotiation(type, data)
 	end -- if
 end -- function
 
+
 function draw_panes()
 	--  redraw the map
 	draw_minimap()
@@ -407,6 +409,7 @@ end -- function
 
 -- create/draw/show windows using current dimensions
 function create_layout()
+	
 	-- set up TextRectangle
 	left = left_panel_width
 	top = top_panel_height	-- give space for the top panel
@@ -420,16 +423,22 @@ function create_layout()
 	if bottom < top then
 		bottom = top
 	end -- if
+	
+	-- JlyRncher
+	local bigmap_left = ((((right - left_panel_width - 20)/3)*2) + 10) + left	--	JlyRncher .. figure out left coord of bigmap panel
+	local bigmap_depth = screen_height - bottom_panel_height - chat_height - top_panel_height -- JlyRncher .. how high?
+	local rect_width = GetInfo(240) * 100	--	JlyRncher .. width of rectangle and minimum allowed width
+	
 
-	TextRectangle(left+15,  			-- left
-					top+chat_height,	-- top  .. JlyRncher
-					rectangle_width,	-- width .. JlyRncher
-					bottom-15,  		-- height
-					0,  				-- BorderOffset, 
-					colourWhite,   		-- BorderColour, 
-					0,  				-- BorderWidth, 
-					colourWhite,  		-- OutsideFillColour, 
-					1) 					-- OutsideFillStyle (fine hatch)
+	TextRectangle(left+15,  				-- left
+					top+chat_height,		-- top  .. JlyRncher
+					right,					-- width 
+					bottom-15,  			-- height
+					0,  					-- BorderOffset, 
+					colourWhite,   			-- BorderColour, 
+					0,  					-- BorderWidth, 
+					colourWhite,  			-- OutsideFillColour, 
+					1) 						-- OutsideFillStyle (fine hatch)
 	-- enforce the 90 column wrap
 	-- we can't do anything about the user changing these options in the client itself
 	SetOption("auto_wrap_window_width", false)
@@ -509,16 +518,15 @@ function create_layout()
 						6,					-- draw underneath and absolute
 						colourBlack))		-- background colour
 						
-	local bigmap_left = ((((right - left_panel_width - 20)/3)*2) + 10) + left	--	JlyRncher .. figure out left coord of bigmap panel
 	
-	check(WindowCreate(bigmap_panel,							-- window ID .. JlyRncher .. Our new big map window
-						bigmap_left,							-- left
-						top_panel_height + chat_height,			-- top
-						right - bigmap_left,					-- width
-						screen_height - bottom_panel_height - chat_height - top_panel_height,	-- depth
-						12,										-- center it (ignored)
-						6,										-- draw underneath and absolute
-						colourBlack))							-- background colour
+	check(WindowCreate(bigmap_panel,					-- window ID .. JlyRncher .. Our new big map window
+						bigmap_left,					-- left
+						top_panel_height + chat_height,	-- top
+						right - bigmap_left,			-- width
+						bigmap_depth,					-- depth
+						12,								-- center it (ignored)
+						6,								-- draw underneath and absolute
+						colourBlack))					-- background colour
 						
 
 
@@ -1045,7 +1053,7 @@ function create_layout()
 	WindowShow(chat_panel, true)	-- JlyRncher
 	WindowShow(bigmap_panel, true)	-- JlyRncher
 
-	
+
 	if current_window ~= nil then
 		WindowShow(current_window, true) -- redisplay the current window
 	else
