@@ -11,6 +11,7 @@
 
 require "tprint"
 
+local DEBUG = false		-- JlyRncher .. DEBUG switch for troubleshooting
 
 -- msdp stuff, don't touch!
 local using_msdp = false
@@ -23,7 +24,6 @@ local MSP = 90
 -- setup miniwindows
 local background_win = "background_window_" .. GetPluginID()
 local top_panel = "top_panel_" .. GetPluginID()
-local logo_win = "zlogo_window_" .. GetPluginID()	-- starts with z to trick drawing order
 local logo_win = "zlogo_window_" .. GetPluginID()	   -- starts with z to trick drawing order
 local top_right_panel = "top_right_panel_" .. GetPluginID()
 local left_panel = "left_panel_" .. GetPluginID()
@@ -51,19 +51,19 @@ local repair_button = "repair_button_" .. GetPluginID()
 local cancel_button = "cancel_button_" .. GetPluginID()
 
 -- dimensions
-local screen_width											-- GetInfo(281)
-local screen_height											-- GetInfo(280)
-local bar_width												-- for health/mana/blood/movement/xp/opp.
-local bar_height											-- for health/mana/blood/movement/xp/opp.
-local top_panel_height = 80									-- height of the top panel containing player bars
-local left_panel_width = 70									-- width of the left panel containing buttons
-local right_panel_width = 275 								-- width of the panels on the right side of the screen
-local bottom_panel_height = 35								-- width of the panel containing the opponent bar
-local logo_width = 485										-- width in pixels of the logo image
-local opponent_width = logo_width-125						-- width of the opponent health bar
-local min_width = 945 										-- 70 + 600 + 275
-local min_height = 485 										-- 80 + 375 + 35
-local top_right_height = 210								-- JlyRncher .. height of the mini-map panel
+local screen_width				-- GetInfo(281)
+local screen_height				-- GetInfo(280)
+local bar_width					-- for health/mana/blood/movement/xp/opp.
+local bar_height				-- for health/mana/blood/movement/xp/opp.
+local top_panel_height = 80		-- height of the top panel containing player bars
+local left_panel_width = 70		-- width of the left panel containing buttons
+local right_panel_width = 275 	-- width of the panels on the right side of the screen
+local bottom_panel_height = 35	-- width of the panel containing the opponent bar
+local logo_width = 485			-- width in pixels of the logo image
+local opponent_width = logo_width-125	-- width of the opponent health bar
+local min_width = 945 			-- 70 + 600 + 275
+local min_height = 485 			-- 80 + 375 + 35
+local top_right_height = 210	-- JlyRncher .. height of the mini-map panel
 local chat_height = top_right_height-top_panel_height		-- JlyRncher .. height of chat panel
 
 
